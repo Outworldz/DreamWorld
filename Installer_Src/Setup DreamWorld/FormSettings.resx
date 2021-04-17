@@ -121,24 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Birds.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAAAd0SU1FB+UDCwcDCDpFEDQAAAKnSURBVEhLtZVfSFNRHMfvUOZKaU5TC8lESfxD
-        EJHhoCyRNAwtyZU2LCr7p4k1U0h6ioKSosSSTJMIo6inGBiW1EOjeih8CF9Kw0pcNnUOnfhn27dzrt15
-        785xlqyHz7133/P7fg/nnt89EwD8V7hiIBEvs2634JyeEZ9tjnFM/HkOBILL7RE6Le9QceEisgr3w1B2
-        CslbsmE8eRrmF12Ycbm5xr9FGB5z4HLjHeTuKUJqRiZCwlYQVfASn5SCKw238PnbD3g8Hm6IP4SpWZfQ
-        0v4Ix8/WIGnDJkW4HHWIBrfvtxMPP2ghxFdU3/oARSVGGA8fRVXteWTm5DETUHQro2EdtRPffMAs8bv8
-        rIwRaHFWwV4mXCInfzdGx52ob2yCfns20tL1+D40TKzKHAmuaB2xY71+KxMuoQkNE+8R0THoGxgkFjZD
-        gitSPvX2Y3m4ThHsS0V17aIbzxUp1NhF2jc2Lp4JllBrlsFYdgJPzB1wOCe5kzGCL4NDNpSbapC2MZ2Z
-        QI42KgZvP3YTi9Kv+LEQYxNOJCSnMqG+xCWuw0+7g1jmvYogX9xkyeaXr5CYIoWrEKr1vy+FxoOQt60i
-        UA49Io5VVUOlUnnNmTt24gv5otckJHo1Hq0PH5OIuRwmWMJqG0EkaUO5kR4ZdGxgeBQFhmLFmBxtRCRp
-        X6tYyw2X2HfoiNcUFBSMnt6vRJ4bmyZHzNOOTrKqXGgjo7x1FDX5TuoamsVaJlTOJDm2L127gUrTOVxv
-        aua2IdV6+vqRZzjgnSBYrcbV5jaxnjEslaaWe2K4LmY11m7ehoxdhZgi+8gtXgpvPnQjfFUs8ktKUVx+
-        BqWVJtjsY/zipUBfx7PXFty824by2jo8t7wn8iJ78K/Q/v81Pgn6FyztF1MUaLhi4IDwG8hYxS4bFuLa
-        AAAAAElFTkSuQmCC
-</value>
-  </data>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -592,6 +574,24 @@
         AAAAPwAA+AAAAAP/AAD/AAAAD/8AAP/gAAAP/wAA/+AAAA//AAD/4AAAB/8AAP/gAAAH/wAA/+AAAAf/
         AAD/4AAAB/8AAP/gAAAH/wAA/+AAAAf/AAD/4AAAB/8AAP/gAAAH/wAA/+AAAAf/AAD/4AAAB/8AAP/g
         AAAH/wAA/+AAAAf/AAD/4AAAB/8AAP/wAAAP/wAA///AA///AAD///////8AAP///////wAA
+</value>
+  </data>
+  <data name="Birds.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAAAAd0SU1FB+UDCwcDCDpFEDQAAAKnSURBVEhLtZVfSFNRHMfvUOZKaU5TC8lESfxD
+        EJHhoCyRNAwtyZU2LCr7p4k1U0h6ioKSosSSTJMIo6inGBiW1EOjeih8CF9Kw0pcNnUOnfhn27dzrt15
+        785xlqyHz7133/P7fg/nnt89EwD8V7hiIBEvs2634JyeEZ9tjnFM/HkOBILL7RE6Le9QceEisgr3w1B2
+        CslbsmE8eRrmF12Ycbm5xr9FGB5z4HLjHeTuKUJqRiZCwlYQVfASn5SCKw238PnbD3g8Hm6IP4SpWZfQ
+        0v4Ix8/WIGnDJkW4HHWIBrfvtxMPP2ghxFdU3/oARSVGGA8fRVXteWTm5DETUHQro2EdtRPffMAs8bv8
+        rIwRaHFWwV4mXCInfzdGx52ob2yCfns20tL1+D40TKzKHAmuaB2xY71+KxMuoQkNE+8R0THoGxgkFjZD
+        gitSPvX2Y3m4ThHsS0V17aIbzxUp1NhF2jc2Lp4JllBrlsFYdgJPzB1wOCe5kzGCL4NDNpSbapC2MZ2Z
+        QI42KgZvP3YTi9Kv+LEQYxNOJCSnMqG+xCWuw0+7g1jmvYogX9xkyeaXr5CYIoWrEKr1vy+FxoOQt60i
+        UA49Io5VVUOlUnnNmTt24gv5otckJHo1Hq0PH5OIuRwmWMJqG0EkaUO5kR4ZdGxgeBQFhmLFmBxtRCRp
+        X6tYyw2X2HfoiNcUFBSMnt6vRJ4bmyZHzNOOTrKqXGgjo7x1FDX5TuoamsVaJlTOJDm2L127gUrTOVxv
+        aua2IdV6+vqRZzjgnSBYrcbV5jaxnjEslaaWe2K4LmY11m7ehoxdhZgi+8gtXgpvPnQjfFUs8ktKUVx+
+        BqWVJtjsY/zipUBfx7PXFty824by2jo8t7wn8iJ78K/Q/v81Pgn6FyztF1MUaLhi4IDwG8hYxS4bFuLa
+        AAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

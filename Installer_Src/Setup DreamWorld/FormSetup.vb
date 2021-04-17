@@ -20,7 +20,7 @@ Imports IWshRuntimeLibrary
 
 Public Class FormSetup
 
-    Dim searcher As ManagementObjectSearcher
+    Private searcher As ManagementObjectSearcher
 
 #Region "Private Declarations"
 
@@ -275,24 +275,6 @@ Public Class FormSetup
         End Get
         Set(value As ScreenPos)
             ScreenPosition = value
-        End Set
-    End Property
-
-    Public Property Searcher1 As ManagementObjectSearcher
-        Get
-            Return Searcher2
-        End Get
-        Set(value As ManagementObjectSearcher)
-            Searcher2 = value
-        End Set
-    End Property
-
-    Public Property Searcher2 As ManagementObjectSearcher
-        Get
-            Return searcher
-        End Get
-        Set(value As ManagementObjectSearcher)
-            searcher = value
         End Set
     End Property
 
@@ -980,8 +962,6 @@ Public Class FormSetup
 
             PercentCPU.Text = $"CPU: {CPUAverageSpeed / 100:P1}"
 
-            ''reverse series
-
             ChartWrapper1.ClearChart()
             Dim CPU1() As Double = MyCPUCollection.ToArray()
             ChartWrapper1.AddLinePlot("CPU", CPU1)
@@ -991,12 +971,11 @@ Public Class FormSetup
         'RAM
 
         Try
-            Dim results As ManagementObjectCollection = Searcher1.Get()
+            Dim results As ManagementObjectCollection = searcher.Get()
             For Each result In results
                 Dim value As Double = (CDbl(result("TotalVisibleMemorySize").ToString) - CDbl(result("FreePhysicalMemory").ToString)) / CDbl(result("TotalVisibleMemorySize").ToString) * 100
                 MyRAMCollection.Add(value)
                 If MyRAMCollection.Count > 180 Then MyRAMCollection.RemoveAt(0)
-
                 value = Math.Round(value)
                 Settings.Ramused = value
                 PercentRAM.Text = $"RAM: {value / 100:p1}"
@@ -1602,7 +1581,7 @@ Public Class FormSetup
         UpgradeDotNet()
 
         Dim wql As ObjectQuery = New ObjectQuery("SELECT TotalVisibleMemorySize,FreePhysicalMemory FROM Win32_OperatingSystem")
-        Searcher1 = New ManagementObjectSearcher(wql)
+        searcher = New ManagementObjectSearcher(wql)
 
         CopyWifi()
         Cleanup() ' old files thread
@@ -2046,7 +2025,7 @@ Public Class FormSetup
         If Not KillAll() Then Return
 
         cpu.Dispose()
-        Searcher1.Dispose()
+        searcher.Dispose()
 
         If PropWebServer IsNot Nothing Then
             PropWebServer.StopWebServer()

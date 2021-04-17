@@ -187,6 +187,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Alfa-numèric signe menys i el caràcter d'espai</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Analitza el registre</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>anunciar Visitants</value>
   </data>
@@ -235,6 +238,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>aplicar</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>Àrab (saudita)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>Estàs segur? La seva base de dades es carreguen des de la còpia de seguretat i tot el contingut existent reemplaçat. Avatars, Sims, inventari, everyting s'escriuran més.</value>
   </data>
@@ -249,6 +255,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>carpeta de còpia de seguretat automàtica no pot ser localitzat, de manera que la carpeta s'ha restablert als valors predeterminats.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Mar i terra sense fi</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>reinici automàtic</value>
@@ -270,6 +279,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>Posada en marxa automàtica</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponible</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Els avatars són en el món! És el que realment vol deixar de fumar?</value>
@@ -301,9 +313,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>Bases de dades de còpia de seguretat</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Còpia de seguretat d'arxius de dades</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>carpeta de suport</value>
   </data>
@@ -333,6 +342,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>reserva</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Males coordenades</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Feu clic per configurar la xarxa, l'adreça MAC i la prohibició d'IP</value>
@@ -370,11 +382,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>Negre</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Arrencada</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Mida de la vora (per defecte = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>la física de punt negre en fil separat</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>Brasiler (portuguès)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Xat Informació de marees per a la regió de manera que les seqüències d'ordres es poden moure amb la marea?</value>
@@ -393,6 +411,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Ocupat</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>No s'ha pogut carregar la configuració INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>caixets</value>
@@ -442,6 +463,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>categoria</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>Atenció! Això carregarà més de 150 OARS i regions al vostre sistema. Això trigarà molt.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>Atenció!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Centre de mapa de coordenades</value>
   </data>
@@ -474,6 +501,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>Comprovació de l'router</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>comprovació</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Comprovar i reparar base de dades</value>
@@ -544,8 +574,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Netejar memòria cau</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Esborra tots els objectes de tots els quadrats i carrega el rem</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Memòries cau clara seleccionats</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>No sobreescriviu el terreny de la regió existent.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Feu clic per iniciar o aturar robusta</value>
@@ -778,6 +814,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>La regió per defecte 'Benvingut' no es troba en el sistema. Continuar?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Suprimeix per edat</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>suprimit</value>
   </data>
@@ -849,6 +888,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Descarta tots els canvis i sortir?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>L’espai al disc és molt baix, queden menys de 50 M! Totes les regions estan congelades. Allibereu espai al disc i les regions es descongelaran.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Panell de la diva</value>
@@ -952,6 +994,9 @@
   <data name="English" xml:space="preserve">
     <value>Anglès</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Establiu el nom de la finca al quadre DOS.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Introduïu un nom per a la còpia de seguretat</value>
   </data>
@@ -966,6 +1011,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Introduïu la Xarxa d'Informació de l'propietari</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Això esborrarà tot el simulador i es carregarà un simulador nou. Estàs segur?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Error: No s'ha pogut iniciar DreamGridInstaller.exe.</value>
@@ -1000,6 +1048,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>sortida</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Exporta tots els mapes</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>fitxer de còpia de seguretat d'exportació</value>
   </data>
@@ -1021,8 +1072,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>No s'ha pogut connectar a la web.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>No s'ha pogut carregar la configuració INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Fals</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Persa (Iran)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>fatal</value>
@@ -1225,6 +1279,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>una alta qualificació d'aigua en metres</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Inici aturat</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>casa</value>
   </data>
@@ -1305,6 +1362,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>Opensim estalviarà OARS després d'executar aquest llarg</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Ignoreu les noves dades del paquet.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>No feu cas de la parcel·la</value>
@@ -1408,11 +1468,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Només una regió</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Mantenir-se en el cim</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Mantingueu sempre</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Mantenir durant dies</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Khazakistan</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Creador de terres</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>Paisatgisme</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Llenguatge</value>
@@ -1428,6 +1497,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Veure llista d'avatars</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>carregat.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Carregueu tots els rems gratuïts</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>carregant Settings.ini</value>
@@ -1470,6 +1545,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>Terreny de càrrega</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Força la càrrega del terreny a --merge. Normalment, --merge no sobreescriu el terreny de la regió existent.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>local</value>
@@ -1567,8 +1645,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Velocitat màxima (per defecte = 1,0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Sobreescriu les dades de paquets de la regió existent.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>combinar OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Combina el RAO sense netejar cap objecte</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>combinar objectes</value>
@@ -1684,6 +1768,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Cap persona està en línia</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Sense inici de sessió</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>cap</value>
   </data>
@@ -1741,6 +1828,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>No es pot trobar la carpeta FSasset:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>No hi ha regions superposades</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>No publicar aquesta regió</value>
   </data>
@@ -1779,6 +1869,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>clau</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Objectes</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Ruta objecte i el nom</value>
@@ -1852,6 +1945,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>manual PDF</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>Pendents</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>la gent està en</value>
   </data>
@@ -1903,6 +1999,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Port Forwarding Ajuda</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>possibles regions superposades</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Prèvia a l'explorador</value>
   </data>
@@ -1933,14 +2032,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>configuració IP pública</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>foto pública</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Publicar Grid per Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Publicar articles marcats per a la recerca</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Deixar de fumar</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>El sistema i altres applictions no han estat afectats. Un informe ha estat creat que es pot enviar a Outworldz, LLC per ajudar a identificar aquest problema.</value>
@@ -1968,6 +2067,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>reciclar</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Reciclatge cap avall</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Reciclatge cap amunt</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Contingut refrescant gratuït (IAR)</value>
@@ -2091,6 +2196,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>resolt</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Reiniciant ara</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>reinici</value>
@@ -2254,6 +2362,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Cercar Grids (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Quant de temps es mantindrà activa una regió en marxa després que marxi un avatrar</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>segons</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>secret</value>
   </data>
@@ -2329,6 +2443,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Conjunt nivell de depuració</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>Podeu optar per donar-los a una persona. El propietari predeterminat és el predeterminat.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>Definir propietari</value>
   </data>
@@ -2380,6 +2497,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>Mapa petita de metro</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Configuració Smart Start (codi alfa)</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Enable</value>
   </data>
@@ -2410,6 +2530,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>espanyol</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Espanyol (Mèxic)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Espanyol (Espanya)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Visor Splash URL de pantalla:</value>
   </data>
@@ -2419,8 +2545,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>Base de dades SQL Backup / Restore</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Apagat en segons</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (codi alfa) a Configuració-&gt; Smart Start està desactivat.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>El codi d’inici intel·ligent (alfa) a Configuració-&gt; Inici intel·ligent està habilitat.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Iniciar totes les regions controlades</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>Comenceu la ubicació?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>A partir Port de diagnòstic servidor web</value>
@@ -2491,8 +2629,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Habilitar Maleta Inventari</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>suspendre</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Suspès</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>suec</value>
@@ -2533,6 +2671,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Establir tema de Negre</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>El tema s'ha definit com a Personalitzat</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Establir tema a White</value>
   </data>
@@ -2569,8 +2710,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>transferència</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Feu arbres com a fitxers XML</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Arbres i plantes</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Solució de problemes</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>És cert</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Permet servidor web Apache per a funcionar com un servei.</value>
@@ -2701,6 +2851,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>versió</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Veure tots els mapes</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>Per defecte: Actiu. Els usuaris poden necessitar per reduir l'ample de banda espectador si algunes parts de el terreny prims o fallen en rez. Canvi en false si necessita utilitzar espectadors vells que no suporten aquesta característica</value>
   </data>
@@ -2767,11 +2920,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Configuració de veu</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Esperant</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Esperant en robust per iniciar</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>A l'espera de totes les regions a la sortida</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Espereu els scripts</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>advertir</value>
@@ -2785,20 +2944,23 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Servidor web + Recerca i Mapa</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Web Enllaç de descàrrega</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Port web (80 o 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>La interfície d'usuari web li permet afegir o veure la configuració per a qualsevol avatar.</value>
   </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>Quin nom de finca voleu? En blanc = cal introduir-lo més de 150 vegades.</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>Què vol dir a tot el món en línia?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>Què vol dir que aquesta regió?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>Per on començar? (Les regions creixen cap a la dreta i cap amunt)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Què canal no escoltar els ocells per als comandaments en el món. Els nombres negatius no poden ser utilitzats pels éssers humans</value>
@@ -2857,166 +3019,7 @@
   <data name="_0" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>El tema s'ha definit com a Personalitzat</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>Àrab (saudita)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Persa (Iran)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>Brasiler (portuguès)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Khazakistan</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Espanyol (Mèxic)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Espanyol (Espanya)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>segons</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Inici aturat</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Suspès</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Esperant</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Arrencada</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Sense inici de sessió</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>Pendents</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Deixar de fumar</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Reciclatge cap avall</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Reciclatge cap amunt</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Reiniciant ara</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Apagat en segons</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Veure tots els mapes</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Espereu els scripts</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Quant de temps es mantindrà activa una regió en marxa després que marxi un avatrar</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Males coordenades</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>Atenció! Això carregarà més de 150 OARS i regions al vostre sistema. Això trigarà molt.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>Atenció!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>L’espai al disc és molt baix, queden menys de 50 M! Totes les regions estan congelades. Allibereu espai al disc i les regions es descongelaran.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Establiu el nom de la finca al quadre DOS.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>carregat.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Carregueu tots els rems gratuïts</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Configuració Smart Start (codi alfa)</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (codi alfa) a Configuració-&gt; Smart Start està desactivat.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>El codi d’inici intel·ligent (alfa) a Configuració-&gt; Inici intel·ligent està habilitat.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>Comenceu la ubicació?</value>
-  </data>
   <data name="WhatEstate" xml:space="preserve">
-    <value>Quina finca?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>Quin nom de finca voleu? En blanc = cal introduir-lo més de 150 vegades.</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>Per on començar? (Les regions creixen cap a la dreta i cap amunt)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Disponible</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Esborra tots els objectes de tots els quadrats i carrega el rem</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>No sobreescriviu el terreny de la regió existent.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Ignoreu les noves dades del paquet.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Força la càrrega del terreny a --merge. Normalment, --merge no sobreescriu el terreny de la regió existent.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Sobreescriu les dades de paquets de la regió existent.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Combina el RAO sense netejar cap objecte</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Objectes</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>Podeu optar per donar-los a una persona. El propietari predeterminat és el predeterminat.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Això esborrarà tot el simulador i es carregarà un simulador nou. Estàs segur?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>comprovació</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>No hi ha regions superposades</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>possibles regions superposades</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Mar i terra sense fi</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Fals</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Feu arbres com a fitxers XML</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>És cert</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Exporta tots els mapes</value>
+    <value>Quin és el nom de la finca ?.</value>
   </data>
 </root>

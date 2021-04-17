@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Alfa-numérico signo menos y el carácter de espacio</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Analizar registro</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>anunciar Visitantes</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>Aplicar</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>Árabe (saudí)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>¿Está seguro? Su base de datos se cargan desde la copia de seguridad y todo el contenido existente reemplazado. Avatares, Sims, inventario, everyting se escribirán más.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>carpeta de copia de seguridad automática no puede ser localizado, por lo que la carpeta se ha restablecido a los valores predeterminados.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Tierra y mar sin fin</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>reinicio automático</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>Puesta en marcha automática</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponible</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Los avatares son en el mundo! Es lo que realmente desea dejar de fumar?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>Bases de datos de copia de seguridad</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Copia de seguridad de archivos de datos</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>carpeta de respaldo</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>Respaldo</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Malas coordenadas</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Haga clic para configurar la red, la dirección MAC y la prohibición de IP</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>Negro</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Arranque</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Tamaño del borde (por defecto = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>la física de punto negro en hilo separado</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>Brasileño (Portguese)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Chat Información de mareas para la región por lo que las secuencias de comandos se pueden mover con la marea?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Ocupado</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>No se pudo cargar la configuración INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>cachés</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>Categoría</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>¡Precaución! Esto cargará más de 150 OARS y regiones en su sistema. Esto llevará mucho tiempo.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>¡Precaución!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Centro del mapa de coordenadas</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>Comprobación del router</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>Comprobación</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Comprobar y reparar base de datos</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Limpiar cache</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Borra todos los objetos en todos los cuadrados y carga el OAR</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Cachés clara seleccionados</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>No sobrescriba el terreno de la región existente.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Haga clic para iniciar o detener robusta</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>La región por defecto 'Bienvenido' no se encuentra en el sistema. ¿Continuar?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Eliminar por edad</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>Suprimido</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Descartar todos los cambios y salir?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>¡El espacio en disco es críticamente bajo, a menos de 50 M de la izquierda!   Todas las regiones están congeladas.  Libere espacio en disco y las regiones se descongelarán.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Panel de la diva</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>inglés</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Establezca el nombre del estado en el cuadro DOS.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Introduzca un nombre para la copia de seguridad</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Introduzca la Red de Información del propietario</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Esto borrará el SIM WHOLE y cargará un nuevo sim. ¿Estás seguro?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Error: No se pudo iniciar DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>Salida</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Exportar todos los mapas</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>archivo de copia de seguridad de exportación</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>No se pudo conectar al sitio web.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>No se pudo cargar la configuración INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Falso</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Farsi (Irán)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>Fatal</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>una alta calificación de agua en metros</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Casa detenida</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>Hogar</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>Opensim ahorrará OARS después de ejecutar este largo</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Ignore los nuevos datos de parcela.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>No haga caso de la parcela</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Sólo una región</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Mantenerse en la cima</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Mantener siempre</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Mantener durante días</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Khazakistan</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Fabricante de tierras</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>paisajismo</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Idioma</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Ver lista de avatares</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>Cargado.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Cargar todos los remos libres</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>Cargando Settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>Terreno de carga</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Forzar la carga del terreno en --merge. Normalmente, --merge no sobrescribe el terreno de la región existente.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>Local</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Velocidad máxima (por defecto = 1,0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Sobrescriba los datos de parcela de la región existente.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>Combinar OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Fusiona la OAR sin borrar ningún objeto</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>Combinar objetos</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Ninguna persona está en línea</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Sin inicio de sesión</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>Ninguno</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>No se puede encontrar la carpeta FSasset:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>Sin regiones superpuestas</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>No publicar esta región</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>Llave</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Objetos</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Ruta objeto y el nombre</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>Manual PDF</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>la gente está en</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Port Forwarding Ayuda</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>posibles regiones superpuestas</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Previa en el explorador</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>configuración IP pública</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>Foto pública</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Publicar Grid para Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Publicar artículos marcados para la búsqueda</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Dejar</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>El sistema y otras applictions no han sido afectados. Un informe ha sido creado que se puede enviar a Outworldz, LLC para ayudar a identificar este problema.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>Reciclar</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Reciclaje hacia abajo</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Reciclaje</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Contenido refrescante gratuito (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>resuelto</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Reiniciar ahora</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>Reinicio</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Buscar Grids (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Cuánto tiempo quedará una región en funcionamiento después de que un avatrar se haya ido</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>Segundos</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>Secreto</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Conjunto nivel de depuración</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>Puedes elegir dárselos a una persona. El valor predeterminado es el propietario del patrimonio.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>Establecer propietario</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>Mapa pequeña de metro</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Configuración de inicio inteligente (código Alfa)</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Enable</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>Español</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Español (México)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Español (España)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Visor Splash URL de pantalla:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>Base de datos SQL Backup / Restore</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Apagado en segundos</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (código Alfa) en Settings-&gt;Smart Start está deshabilitado.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>El código de inicio inteligente (Alfa) en Settings-&gt;Smart Start está habilitado.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Iniciar todas las regiones controladas</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>¿Ubicación de inicio?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>A partir Puerto de diagnóstico servidor web</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Habilitar Maleta Inventario</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>suspender</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Suspendido</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>sueco</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Establecer tema de Negro</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>Tema establecido en Personalizado</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Establecer tema a White</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>Transferir</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Hacer árboles como archivos XML</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Árboles y plantas</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Solución de problemas</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>Verdad</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Permite servidor Web Apache para funcionar como un servicio.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>Versión</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Ver todos los mapas</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>Por defecto: Activado. Los usuarios pueden necesitar para reducir el ancho de banda espectador si algunas partes del terreno prims o fallan en rez. Cambio en false si necesita usar espectadores viejos que no soportan esta característica</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Configuración de voz</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Esperando</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Esperando en robusto para iniciar</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>A la espera de todas las regiones a la salida</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Esperar guiones</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>Advertir</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Servidor web + Búsqueda y Mapa</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Web Enlace de descarga</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Puerto Web (80 o 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>La interfaz de usuario Web le permite agregar o ver la configuración para cualquier avatar.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>¿Qué finca?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>¿Qué nombre de patrimonio quieres? Blank = ¡tienes que introducirlo más de 150 veces!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>¿Qué quiere decir a todo el mundo en línea?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>¿Qué quiere decir que esta región?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>¿Por dónde empezar? (Las regiones crecen a la derecha y hacia arriba)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Qué canal no escuchar a los pájaros para los comandos en el mundo. Los números negativos no pueden ser utilizados por los seres humanos</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>Tema establecido en Personalizado</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>Árabe (saudí)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Farsi (Irán)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>Brasileño (Portguese)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Khazakistan</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Español (México)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Español (España)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>Segundos</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>Pendiente</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Suspendido</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Sin inicio de sesión</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Esperando</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Reiniciar ahora</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Dejar</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Arranque</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Apagado en segundos</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Reciclaje</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Ver todos los mapas</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Esperar guiones</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Cuánto tiempo quedará una región en funcionamiento después de que un avatrar se haya ido</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Casa detenida</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Reciclaje hacia abajo</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Malas coordenadas</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>¡Precaución! Esto cargará más de 150 OARS y regiones en su sistema. Esto llevará mucho tiempo.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>¡Precaución!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>¡El espacio en disco es críticamente bajo, a menos de 50 M de la izquierda!   Todas las regiones están congeladas.  Libere espacio en disco y las regiones se descongelarán.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Establezca el nombre del estado en el cuadro DOS.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>Cargado.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Cargar todos los remos libres</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Configuración de inicio inteligente (código Alfa)</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (código Alfa) en Settings-&gt;Smart Start está deshabilitado.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>El código de inicio inteligente (Alfa) en Settings-&gt;Smart Start está habilitado.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>¿Ubicación de inicio?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>¿Qué finca?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>¿Qué nombre de patrimonio quieres? Blank = ¡tienes que introducirlo más de 150 veces!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>¿Por dónde empezar? (Las regiones crecen a la derecha y hacia arriba)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Disponible</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Borra todos los objetos en todos los cuadrados y carga el OAR</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>No sobrescriba el terreno de la región existente.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Ignore los nuevos datos de parcela.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Forzar la carga del terreno en --merge. Normalmente, --merge no sobrescribe el terreno de la región existente.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Sobrescriba los datos de parcela de la región existente.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Fusiona la OAR sin borrar ningún objeto</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Objetos</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>Puedes elegir dárselos a una persona. El valor predeterminado es el propietario del patrimonio.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Esto borrará el SIM WHOLE y cargará un nuevo sim. ¿Estás seguro?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>Comprobación</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>Sin regiones superpuestas</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>posibles regiones superpuestas</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Tierra y mar sin fin</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Falso</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Hacer árboles como archivos XML</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>Verdad</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Exportar todos los mapas</value>
   </data>
 </root>

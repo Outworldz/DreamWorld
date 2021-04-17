@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Alfanumeriskt plus-minustecken och mellanslag</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Analysera logg</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>meddela besökare</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>Tillämpa</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>Arabiska (saudiska)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>Är du säker? Din databas kommer laddas från backup och allt befintligt innehåll ut. Avatarer, sims, inventering, every kommer att skrivas över.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>Autobackup mapp kan inte hittas, så mappen har återställts till standard.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Ändlösa land och hav</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>automatisk omstart</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>automatisk Startup</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Tillgängliga</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Avatarer är i världen! Vill du verkligen vill sluta?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>Backup databaser</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Backup datafiler</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>backup Folder</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>Säkerhetskopiering</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Dåliga koordinater</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Klicka för att ställa in Grid, MAC-adress och IP-förbud</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>Svart</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Uppstart</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Gräns ​​Storlek (default = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>Bullet fysik i separat tråd</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>Brasilianska (Portguese)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Chat tidvattnet information till regionen så skript kan flytta med strömmen?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Upptagen</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Det gick inte att läsa in inställningar INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>cachar</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>Kategori</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>Varning! Detta laddar 150+ OARS och regioner i ditt system. Detta tar lång tid.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>Varning!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Mitten av kartan samordna</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>kontroll Router</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>kontroll</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Kontrollera och reparera databas</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Clear Cache</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Rensar alla föremål i alla rutor och laddar OAR</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Clear Selected cachar</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>Skriv inte över den befintliga regionens terräng.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Klicka för att starta eller stoppa Robust</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>Standard 'Välkommen' region inte finns i systemet. Fortsätta?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Radera efter ålder</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>raderade</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Kasta alla ändringar och avsluta?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>Diskutrymmet är kritiskt lågt, mindre än 50 M kvar! Alla regioner är frysta. Frigör diskutrymme och regionerna tiner.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Diva Panel</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>engelsk</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Ställ in godsnamnet i rutan DOS.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Ange ett namn för säkerhetskopian</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Ange nätägare Information</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Detta raderar HELA simen och laddar en ny sim. Är du säker?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Fel: Det gick inte att starta DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>Utgång</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Exportera alla kartor</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>Export säkerhetskopia</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>Det gick inte att ansluta till webbplatsen.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>Det gick inte att läsa in inställningar INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Falsk</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Farsi (Iran)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>Dödlig</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>Höga vattentecken i meter</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Hem Stoppad</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>Hem</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>Opensim sparar OARS efter att ha kört denna långa</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Ignorera de nya paketdata.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>ignorera Parcel</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Bara en region</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Keep On Top</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Håll alltid</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Håll i dagar</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Khazakistan</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Marktillverkare</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>Landskapsarkitektur</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Språk</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Se lista över Avatars</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>lastad.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Ladda alla fria ägg</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>Loading settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>Last terräng</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Tvinga terrängbelastning på --merge. Normalt skriv inte --merge över den befintliga regionens terräng.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>Lokal</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Max hastighet (default = 1,0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Skriv över den befintliga regionens paketdata.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>Merge OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Slår ihop OAR utan att rensa föremål</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>Sammanfoga objekt</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Ingen person är inte uppkopplad</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Ingen inloggning</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>Ingen</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>Det går inte att hitta FSasset mapp:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>Inga överlappande regioner</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>Inte publicera denna region</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>Nyckel</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Objekt</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Object sökväg och namn</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>PDF Manual</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>I väntan på</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>människor är i</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Port Forwarding Hjälp</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>potentiella överlappande regioner</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Förhandsgranska i webbläsare</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>Offentliga IP-konfiguration</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>Public Foto</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Publicera Grid till Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Publicera Fält markerade för sök</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Sluta</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>Systemet och andra lämpningar har inte påverkats. En rapport har skapats som du kan skicka till Outworldz, LLC för att identifiera problemet.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>Återvinna</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Återvinning ner</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Återvinning upp</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Uppfriskande gratis innehåll (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>löst</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Startar om nu</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>omstart</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Sök efter Galler (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Hur länge en löpande region håller sig uppe efter att en avatrar har lämnat</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>sekunder</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>Hemlighet</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Set Debug nivå</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>Du kan välja att ge dessa till en person. Standard är fastighetsägaren.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>set Owner</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>Small Metro karta</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Smart Start (alfakod) inställning</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Aktivera</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>spanska</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Spanska (Mexiko)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Spanska (Spanien)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Viewer Splash Screen URL:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>SQL-databas Backup / Restore</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Stäng av på några sekunder</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (alfakod) i Inställningar-&gt; Smart Start är inaktiverad.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>Smart Start (Alpha) -kod i Inställningar-&gt; Smart Start är aktiverad.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Starta alla kontrolleras regioner</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>Startplats?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>Starta Diagnostic Port Webserver</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Aktivera Inventory Resväska</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>suspendering</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Upphängd</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>svenska</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Tema set Black</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>Tema inställt på Anpassad</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Tema set till White</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>Överföra</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Skapa träd som XML-filer</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Träd och växter</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Felsökning</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>Sann</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Aktiverar webbservern Apache för att köra som en tjänst.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>Version</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Visa alla kartor</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>Standard: Enabled. Användare kan behöva minska viewer bandbredd om vissa Prims eller terräng delar inte rez. Byt till false om du behöver använda gamla tittare som inte stöder denna funktion</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Röstinställningar</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Väntar</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Väntar på Robust att starta</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>Väntar på alla regioner för att avsluta</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Vänta på skript</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>Varna</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Webserver + Sök och karta</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Web Hämta Link</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Web Port (80 eller 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>Webben UI kan du lägga till eller visa inställningar för alla avatar.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>Vilken egendom?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>Vilket godsnamn vill du ha? Tom = du måste mata in det mer än 150 gånger!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>Vad vill du säga till alla på linje?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>Vad vill du säga till denna region?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>Var ska man börja? (Regioner växer till höger och uppåt)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Vilken kanal gör fåglar lyssnar för in-world kommandon. Negativa tal kan inte användas av människor</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>Tema inställt på Anpassad</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>Arabiska (saudiska)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Farsi (Iran)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>Brasilianska (Portguese)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Khazakistan</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Spanska (Mexiko)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Spanska (Spanien)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>sekunder</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>I väntan på</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Upphängd</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Ingen inloggning</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Väntar</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Startar om nu</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Sluta</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Uppstart</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Stäng av på några sekunder</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Återvinning upp</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Visa alla kartor</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Vänta på skript</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Hur länge en löpande region håller sig uppe efter att en avatrar har lämnat</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Hem Stoppad</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Återvinning ner</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Dåliga koordinater</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>Varning! Detta laddar 150+ OARS och regioner i ditt system. Detta tar lång tid.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>Varning!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>Diskutrymmet är kritiskt lågt, mindre än 50 M kvar! Alla regioner är frysta. Frigör diskutrymme och regionerna tiner.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Ställ in godsnamnet i rutan DOS.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>lastad.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Ladda alla fria ägg</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Smart Start (alfakod) inställning</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (alfakod) i Inställningar-&gt; Smart Start är inaktiverad.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>Smart Start (Alpha) -kod i Inställningar-&gt; Smart Start är aktiverad.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>Startplats?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>Vilken egendom?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>Vilket godsnamn vill du ha? Tom = du måste mata in det mer än 150 gånger!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>Var ska man börja? (Regioner växer till höger och uppåt)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Tillgängliga</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Rensar alla föremål i alla rutor och laddar OAR</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>Skriv inte över den befintliga regionens terräng.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Ignorera de nya paketdata.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Tvinga terrängbelastning på --merge. Normalt skriv inte --merge över den befintliga regionens terräng.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Skriv över den befintliga regionens paketdata.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Slår ihop OAR utan att rensa föremål</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Objekt</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>Du kan välja att ge dessa till en person. Standard är fastighetsägaren.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Detta raderar HELA simen och laddar en ny sim. Är du säker?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>kontroll</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>Inga överlappande regioner</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>potentiella överlappande regioner</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Ändlösa land och hav</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Falsk</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Skapa träd som XML-filer</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>Sann</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Exportera alla kartor</value>
   </data>
 </root>

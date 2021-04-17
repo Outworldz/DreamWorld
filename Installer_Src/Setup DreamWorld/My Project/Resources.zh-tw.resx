@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>字母數字正負號和空格字符</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>分析日誌</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>宣布參觀者</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>申請</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>阿拉伯文（沙特）</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>你確定嗎？您的數據庫將從備份加載和所有現有的內容所取代。化身，SIMS，庫存，everyting將被覆蓋。</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>自動備份文件夾無法找到，因此該文件夾已被重置為默認值。</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>無盡的陸地和海洋</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>自動重新啟動</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>自動啟動</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可用的</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>頭像是在世界上！你真的要離開嗎？</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>備份數據庫</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>備份數據文件</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>備份文件夾</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>備用</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>坐標不正確</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>點擊設置網格，MAC地址和IP禁令</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>黑色的</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>正在啟動</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>邊框大小（默認值= 25.0）</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>在單獨的線程Bullet物理</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>巴西文（葡萄牙語）</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>聊天浪潮信息的區域，以便腳本可以隨潮動？</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>忙</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>無法加載設置INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>高速緩存</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>類別</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>警告！這會將150多個OARS和區域加載到您的系統中。這將花費很長時間。</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>警告！</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>在地圖的中心坐標</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>檢查路由器</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>檢查</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>檢查和修復數據庫</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>清除緩存</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>清除所有正方形中的所有對象並加載OAR</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>清除緩存選擇</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>不要覆蓋現有區域的地形。</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>點擊啟動或停止穩健</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>默認的'歡迎'區域未在系統中找到。繼續？</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>按年齡刪除</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>已刪除</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>放棄所有更改並退出？</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>磁盤空間嚴重不足，還不到50 M！所有區域均被凍結。請釋放磁盤空間，這些區域將解凍。</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>女神面板</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>英語</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>在DOS框中設置遺產名稱。</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>為您的備份輸入一個名稱</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>輸入電網所有者信息</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>這將刪除整個SIM卡並加載新的SIM卡。你確定嗎？</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>錯誤：無法啟動DreamGridInstaller.exe。</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>出口</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>導出所有地圖</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>導出備份文件</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>未能連接到網站。</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>無法加載設置INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>錯誤的</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>波斯（伊朗）</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>致命的</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>在米多高的水痕</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>回家停止</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>家</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>的OpenSim會長時間運行之後保存槳</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>忽略新的宗地數據。</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>忽略包裹</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>只是一個區域</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>保持在最前</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>始終保持</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>保留了天</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>哈薩克斯坦</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>土地製造商</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>美化環境</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>語言</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>化身的視圖列表</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>已加載。</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>加載所有免費槳</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>加載的Settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>負載地形</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>強制在--merge上加載地形。通常，-merge不會覆蓋現有區域的地形。</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>當地的</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>最大速度（缺省值= 1.0）</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>覆蓋現有區域的宗地數據。</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>合併OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>合併OAR而不清除任何對象</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>合併對象</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>任何人在線</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>沒有登錄</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>沒有</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>無法找到FSasset文件夾：</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>沒有重疊區域</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>不要發布這個區域</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>鑰匙</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>對象</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>對象路徑和名稱</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>PDF手冊</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>待辦的</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>人在</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>端口轉發幫助</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>潛在的重疊區域</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>瀏覽器預覽</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>公共IP設置</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>公開照片</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>發表格來Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>發布標誌著搜索項目</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>戒菸</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>該系統和其他applictions沒有受到影響。報告已創建，您可以發送到Outworldz，LLC，以幫助確定這個問題。</value>
@@ -1966,6 +2065,12 @@
     <value>準備發射！</value>
   </data>
   <data name="Recycle1" xml:space="preserve">
+    <value>回收</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>回收再利用</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
     <value>回收</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>解決</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>立即重啟</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>重新啟動</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>搜索網格（WWW）</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>頭像離開後正在運行的區域將保持多長時間</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>暫時的失敗，左秒重試︰</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>秘密</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>設置調試級別</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>您可以選擇將它們提供給一個人。默認值為房地產所有者。</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>設置所有者</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>小地鐵地圖</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>智能啟動（字母代碼）設置</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>聰明的開始啟用</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>西班牙語</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>西班牙語（墨西哥）</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>西班牙語（西班牙）</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>瀏覽器閃屏網址：</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>SQL數據庫備份/恢復</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>關機秒數</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>“設置”-&gt;“智能啟動”中的“智能啟動（字母代碼）”已禁用。</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>啟用了“設置”-&gt;“智能啟動”中的“智能啟動（Alpha）”代碼。</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>啟動所有檢查區</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>出發地點？</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>啟動診斷端口網絡服務器</value>
@@ -2490,7 +2628,7 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>允許庫存旅行箱</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
+  <data name="Suspended_word" xml:space="preserve">
     <value>暫停</value>
   </data>
   <data name="Swedish" xml:space="preserve">
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>主題設置為黑色</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>主題設置為自定義</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>主題設置為白色</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>轉移</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>使樹成為XML文件</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>樹木和植物</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>故障排除</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>真的</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>啟用Apache Web服務器作為服務運行。</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>版本</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>查看所有地圖</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>默認值：啟用。用戶可根據需要，以減少觀眾的帶寬，如果一些prims或地形部分未能蘇亞雷斯。更改為false，如果你需要使用不支持此功能的老觀眾</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>語音設置</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>等待</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>等待穩健開始</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>等待所有地區的出口</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>等待腳本</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>警告</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Web服務器+搜索和地圖</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>網頁下載鏈接</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Web端口（80或8000）</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>在Web UI可以讓你對任何頭像添加或視圖設置。</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>什麼莊園？</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>您想要什麼屋名？空白=您必須輸入150多次以上！</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>你想要什麼要說到大家對線？</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>你想要什麼要說到這個區域？</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>從哪兒開始？ （區域向右上方）</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>這道鳥兒聽在世界的命令。負數不能被人類使用</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>主題設置為自定義</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>阿拉伯文（沙特）</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>波斯（伊朗）</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>巴西文（葡萄牙語）</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>哈薩克斯坦</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>西班牙語（墨西哥）</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>西班牙語（西班牙）</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>暫時的失敗，左秒重試︰</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>待辦的</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>暫停</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>沒有登錄</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>等待</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>立即重啟</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>戒菸</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>正在啟動</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>關機秒數</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>回收</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>查看所有地圖</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>等待腳本</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>頭像離開後正在運行的區域將保持多長時間</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>回家停止</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>回收再利用</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>坐標不正確</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>警告！這會將150多個OARS和區域加載到您的系統中。這將花費很長時間。</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>警告！</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>磁盤空間嚴重不足，還不到50 M！所有區域均被凍結。請釋放磁盤空間，這些區域將解凍。</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>在DOS框中設置遺產名稱。</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>已加載。</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>加載所有免費槳</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>智能啟動（字母代碼）設置</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>“設置”-&gt;“智能啟動”中的“智能啟動（字母代碼）”已禁用。</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>啟用了“設置”-&gt;“智能啟動”中的“智能啟動（Alpha）”代碼。</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>出發地點？</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>什麼莊園？</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>您想要什麼屋名？空白=您必須輸入150多次以上！</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>從哪兒開始？ （區域向右上方）</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>可用的</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>清除所有正方形中的所有對象並加載OAR</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>不要覆蓋現有區域的地形。</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>忽略新的宗地數據。</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>強制在--merge上加載地形。通常，-merge不會覆蓋現有區域的地形。</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>覆蓋現有區域的宗地數據。</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>合併OAR而不清除任何對象</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>對象</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>您可以選擇將它們提供給一個人。默認值為房地產所有者。</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>這將刪除整個SIM卡並加載新的SIM卡。你確定嗎？</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>檢查</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>沒有重疊區域</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>潛在的重疊區域</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>無盡的陸地和海洋</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>錯誤的</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>使樹成為XML文件</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>真的</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>導出所有地圖</value>
   </data>
 </root>

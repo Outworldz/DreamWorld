@@ -10270,7 +10270,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to What Estate?.
+        '''  Looks up a localized string similar to What is the Estate Name?..
         '''</summary>
         Friend ReadOnly Property WhatEstate() As String
             Get
