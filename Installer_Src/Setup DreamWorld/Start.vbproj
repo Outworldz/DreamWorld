@@ -581,11 +581,6 @@
     <Compile Include="jOpensim.vb" />
     <Compile Include="Logging.vb" />
     <Compile Include="My Project\Builder.vb" />
-    <Compile Include="My Project\Resources.cz.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.cz.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -652,215 +647,8 @@
     <Compile Include="WordWrap.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormApache.ar-SA.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.da.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.es-ES.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.fa-IR.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.it.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.ru-KZ.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.tr.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.vi.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormApache.zh-Hans-HK.resx">
-      <DependentUpon>FormApache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.ar-SA.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.da.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.es-ES.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.fa-IR.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.ru-KZ.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.vi.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormAutoBackups.zh-Hans-HK.resx">
-      <DependentUpon>FormAutoBackups.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.ar-SA.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.da.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.es-ES.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.fa-IR.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.ru-KZ.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.vi.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.zh-Hans-HK.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.ar-SA.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.da.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.es-ES.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.fa-IR.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.ru-KZ.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.zh-Hans-HK.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.ar-SA.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.da.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.es-ES.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.fa-IR.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.ru-KZ.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBird.zh-Hans-HK.resx">
-      <DependentUpon>FormBird.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCaches.ar-SA.resx">
-      <DependentUpon>FormCaches.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCaches.es-ES.resx">
-      <DependentUpon>FormCaches.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCaches.fa-IR.resx">
-      <DependentUpon>FormCaches.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCaches.ru-KZ.resx">
-      <DependentUpon>FormCaches.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCaches.zh-Hans-HK.resx">
-      <DependentUpon>FormCaches.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormChooser.ar-SA.resx">
-      <DependentUpon>FormChooser.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormChooser.es-ES.resx">
-      <DependentUpon>FormChooser.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormChooser.fa-IR.resx">
-      <DependentUpon>FormChooser.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormChooser.ru-KZ.resx">
-      <DependentUpon>FormChooser.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCopyright.ar-SA.resx">
-      <DependentUpon>FormCopyright.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCopyright.es-ES.resx">
-      <DependentUpon>FormCopyright.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCopyright.fa-IR.resx">
-      <DependentUpon>FormCopyright.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormCopyright.ru-KZ.resx">
-      <DependentUpon>FormCopyright.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDatabase.ar-SA.resx">
-      <DependentUpon>FormDatabase.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDatabase.es-ES.resx">
-      <DependentUpon>FormDatabase.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDatabase.fa-IR.resx">
-      <DependentUpon>FormDatabase.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDatabase.ru-KZ.resx">
-      <DependentUpon>FormDatabase.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormDebug.resx">
       <DependentUpon>FormDebug.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDisplacement.es-ES.resx">
-      <DependentUpon>FormDisplacement.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDisplacement.fa-IR.resx">
-      <DependentUpon>FormDisplacement.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDisplacement.ru-KZ.resx">
-      <DependentUpon>FormDisplacement.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDiva.es-ES.resx">
-      <DependentUpon>FormDiva.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDiva.fa-IR.resx">
-      <DependentUpon>FormDiva.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDiva.ru-KZ.resx">
-      <DependentUpon>FormDiva.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDNSName.es-ES.resx">
-      <DependentUpon>FormDNSName.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDNSName.fa-IR.resx">
-      <DependentUpon>FormDNSName.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormDNSName.ru-KZ.resx">
-      <DependentUpon>FormDNSName.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.ca.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.cs.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.de.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.el.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.en.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.es-ES.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.fa-IR.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCopyright.resx">
       <DependentUpon>FormCopyright.vb</DependentUpon>
@@ -869,13 +657,6 @@
       <DependentUpon>FormApache.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBackupCheckboxes.resx">
-      <DependentUpon>FormBackupCheckboxes.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormBanList.resx">
-      <DependentUpon>FormBanList.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormCaches.resx">
       <DependentUpon>FormCaches.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -883,156 +664,36 @@
     <EmbeddedResource Include="FormDisplacement.resx">
       <DependentUpon>FormDisplacement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormEmail.ru-KZ.resx">
-      <DependentUpon>FormEmail.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormErrorLogger.fa-IR.resx">
-      <DependentUpon>FormErrorLogger.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormErrorLogger.resx">
       <DependentUpon>FormErrorLogger.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormErrorLogger.ru-KZ.resx">
-      <DependentUpon>FormErrorLogger.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormFlotsamCache.fa-IR.resx">
-      <DependentUpon>FormFlotsamCache.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFlotsamCache.resx">
       <DependentUpon>FormFlotsamCache.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFlotsamCache.ru-KZ.resx">
-      <DependentUpon>FormFlotsamCache.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormFsAssets.fa-IR.resx">
-      <DependentUpon>FormFsAssets.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormFsAssets.resx">
       <DependentUpon>FormFsAssets.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormFsAssets.ru-KZ.resx">
-      <DependentUpon>FormFsAssets.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGloebits.fa-IR.resx">
-      <DependentUpon>FormGloebits.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGloebits.ru-KZ.resx">
-      <DependentUpon>FormGloebits.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormHelp.fa-IR.resx">
-      <DependentUpon>FormHelp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormHelp.ru-KZ.resx">
-      <DependentUpon>FormHelp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormIARLoad.fa-IR.resx">
-      <DependentUpon>FormIARLoad.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormIARLoad.resx">
       <DependentUpon>FormIARLoad.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormIARLoad.ru-KZ.resx">
-      <DependentUpon>FormIARLoad.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormIARSave.fa-IR.resx">
-      <DependentUpon>FormIARSave.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormIARSave.resx">
       <DependentUpon>FormIARSave.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormIARSave.ru-KZ.resx">
-      <DependentUpon>FormIARSave.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormIceCast.fa-IR.resx">
-      <DependentUpon>FormIceCast.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormIceCast.ru-KZ.resx">
-      <DependentUpon>FormIceCast.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormInitialSetup.fa-IR.resx">
-      <DependentUpon>FormInitialSetup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInitialSetup.resx">
       <DependentUpon>FormInitialSetup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormInitialSetup.ru-KZ.resx">
-      <DependentUpon>FormInitialSetup.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormJoomla.fa-IR.resx">
-      <DependentUpon>FormJoomla.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormJoomla.resx">
-      <DependentUpon>FormJoomla.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormJoomla.ru-KZ.resx">
       <DependentUpon>FormJoomla.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLanguage.resx">
       <DependentUpon>FormLanguage.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogging.fa-IR.resx">
-      <DependentUpon>FormLogging.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormLogging.resx">
       <DependentUpon>FormLogging.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormLogging.ru-KZ.resx">
-      <DependentUpon>FormLogging.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormMaps.fa-IR.resx">
-      <DependentUpon>FormMaps.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormMaps.ru-KZ.resx">
-      <DependentUpon>FormMaps.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormOAR.fa-IR.resx">
-      <DependentUpon>FormOAR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormOAR.resx">
       <DependentUpon>FormOAR.vb</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormOAR.ru-KZ.resx">
-      <DependentUpon>FormOAR.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPermissions.fa-IR.resx">
-      <DependentUpon>FormPermissions.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPermissions.ru-KZ.resx">
-      <DependentUpon>FormPermissions.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPhysics.fa-IR.resx">
-      <DependentUpon>FormPhysics.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPhysics.ru-KZ.resx">
-      <DependentUpon>FormPhysics.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPorts.fa-IR.resx">
-      <DependentUpon>FormPorts.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPorts.ru-KZ.resx">
-      <DependentUpon>FormPorts.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPublicity.fa-IR.resx">
-      <DependentUpon>FormPublicity.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPublicity.ru-KZ.resx">
-      <DependentUpon>FormPublicity.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegion.fa-IR.resx">
-      <DependentUpon>FormRegion.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegion.ru-KZ.resx">
-      <DependentUpon>FormRegion.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegionList.fa-IR.resx">
-      <DependentUpon>FormRegionList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegionList.ru-KZ.resx">
-      <DependentUpon>FormRegionList.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegionPopup.fa-IR.resx">
-      <DependentUpon>FormRegionPopup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegionPopup.resx">
       <DependentUpon>FormRegionPopup.vb</DependentUpon>
@@ -1084,41 +745,20 @@
     <EmbeddedResource Include="FormRegionList.resx">
       <DependentUpon>FormRegionList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegionPopup.ru-KZ.resx">
-      <DependentUpon>FormRegionPopup.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormRegions.resx">
-      <DependentUpon>FormRegions.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormRegions.ru-KZ.resx">
       <DependentUpon>FormRegions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRestart.resx">
       <DependentUpon>FormRestart.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRestart.ru-KZ.resx">
-      <DependentUpon>FormRestart.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormScripts.resx">
-      <DependentUpon>FormScripts.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormScripts.ru-KZ.resx">
       <DependentUpon>FormScripts.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSearch.resx">
       <DependentUpon>FormSearch.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSearch.ru-KZ.resx">
-      <DependentUpon>FormSearch.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormServerType.resx">
       <DependentUpon>FormServerType.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormServerType.ru-KZ.resx">
-      <DependentUpon>FormServerType.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormSettings.ru-KZ.resx">
-      <DependentUpon>FormSettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSetup.en.resx">
       <DependentUpon>FormSetup.vb</DependentUpon>
@@ -1144,21 +784,6 @@
     <EmbeddedResource Include="FormTide.resx">
       <DependentUpon>FormTide.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTOS.ca.resx">
-      <DependentUpon>FormTOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTOS.cs.resx">
-      <DependentUpon>FormTOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTOS.de.resx">
-      <DependentUpon>FormTOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTOS.el.resx">
-      <DependentUpon>FormTOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormTOS.en.resx">
-      <DependentUpon>FormTOS.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormTOS.resx">
       <DependentUpon>FormTOS.vb</DependentUpon>
     </EmbeddedResource>
@@ -1171,47 +796,16 @@
     <EmbeddedResource Include="My Project\Resources.ca.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="My Project\Resources.cz.ar-SA.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.ca.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.cs.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.da.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.de.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.el.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.en.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.es-ES.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.es-MX.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.eu.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.fa-IR.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.fi.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.fr.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.ga.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.he.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.is.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.it.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.nl-NL.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.no.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.pl.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.pt.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <CustomToolNamespace>My.Resources</CustomToolNamespace>
-      <LastGenOutput>Resources.cz.Designer.vb</LastGenOutput>
+    <EmbeddedResource Include="My Project\Resources.da.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="My Project\Resources.cz.ru-KZ.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.ru.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.sv.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.tr.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.vi.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.zh-CN.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.zh-Hans-HK.resx" />
-    <EmbeddedResource Include="My Project\Resources.cz.zh-TW.resx" />
-    <EmbeddedResource Include="My Project\Resources.da.resx" />
     <EmbeddedResource Include="My Project\Resources.de.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.en.resx" />
-    <EmbeddedResource Include="My Project\Resources.es-ES.resx" />
+    <EmbeddedResource Include="My Project\Resources.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.eu.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>

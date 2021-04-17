@@ -182,16 +182,19 @@ Module Build
 
     Public Sub InitTrees()
 
-        Dim TreeDirectoryInfo As New System.IO.DirectoryInfo(IO.Path.Combine(Settings.OpensimBinPath, "Trees"))
-        For Each fileSystemInfo In TreeDirectoryInfo.GetFileSystemInfos
-            Dim n = fileSystemInfo.Name
-            If n.EndsWith(".xml", StringComparison.InvariantCultureIgnoreCase) Then
-                Dim part = IO.Path.GetFileName(n)
-                part = part.Replace(".xml", "")
-                TreeList.Add(part)
-            End If
-        Next
-        Debug.Print($"{TreeList.Count} Trees")
+        Try
+            Dim TreeDirectoryInfo As New System.IO.DirectoryInfo(IO.Path.Combine(Settings.OpensimBinPath, "Trees"))
+            For Each fileSystemInfo In TreeDirectoryInfo.GetFileSystemInfos
+                Dim n = fileSystemInfo.Name
+                If n.EndsWith(".xml", StringComparison.InvariantCultureIgnoreCase) Then
+                    Dim part = IO.Path.GetFileName(n)
+                    part = part.Replace(".xml", "")
+                    TreeList.Add(part)
+                End If
+            Next
+            Debug.Print($"{TreeList.Count} Trees")
+        Catch
+        End Try
 
     End Sub
 
@@ -266,27 +269,32 @@ Module Build
 
     Public Sub InitLand()
 
-        Dim TerrainDirectoryInfo As New System.IO.DirectoryInfo(IO.Path.Combine(Settings.OpensimBinPath, "Terrains"))
-        Dim fileSystemInfo As System.IO.FileSystemInfo
-        For Each fileSystemInfo In TerrainDirectoryInfo.GetFileSystemInfos
-            Dim n = fileSystemInfo.Name
-            If n.EndsWith(".r32", StringComparison.InvariantCultureIgnoreCase) Then
-                Terrains.Add(fileSystemInfo.FullName)
-            End If
-        Next
-        Debug.Print($"{Terrains.Count} Terrains")
+        Try
+            Dim TerrainDirectoryInfo As New System.IO.DirectoryInfo(IO.Path.Combine(Settings.OpensimBinPath, "Terrains"))
+            Dim fileSystemInfo As System.IO.FileSystemInfo
+            For Each fileSystemInfo In TerrainDirectoryInfo.GetFileSystemInfos
+                Dim n = fileSystemInfo.Name
+                If n.EndsWith(".r32", StringComparison.InvariantCultureIgnoreCase) Then
+                    Terrains.Add(fileSystemInfo.FullName)
+                End If
+            Next
+            Debug.Print($"{Terrains.Count} Terrains")
+        Catch
+        End Try
 
-        Dim l As New List(Of String)
-        Dim names = IO.Path.Combine(Settings.CurrentDirectory, "OutworldzFiles\RegionNames.txt")
-        If System.IO.File.Exists(names) Then
-            Using reader As StreamReader = System.IO.File.OpenText(names)
-                While reader.Peek <> -1
-                    l.Add(reader.ReadLine.Trim)
-                End While
-            End Using
-        End If
-        NameList = l
-        Return
+        Try
+            Dim l As New List(Of String)
+            Dim names = IO.Path.Combine(Settings.CurrentDirectory, "OutworldzFiles\RegionNames.txt")
+            If System.IO.File.Exists(names) Then
+                Using reader As StreamReader = System.IO.File.OpenText(names)
+                    While reader.Peek <> -1
+                        l.Add(reader.ReadLine.Trim)
+                    End While
+                End Using
+            End If
+            NameList = l
+        Catch
+        End Try
 
     End Sub
 
