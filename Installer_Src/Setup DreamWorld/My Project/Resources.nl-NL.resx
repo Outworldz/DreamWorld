@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Alfanumeriek plusminus en spatie</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Analyseer Log</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>kondigen Bezoekers</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>Van toepassing zijn</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>Arabisch (Saudi)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>Weet je het zeker? Uw database wordt geladen vanaf de back-up en alle bestaande inhoud vervangen. Avatars, sims, inventaris, everyting zal worden overschreven.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>Autobackup map kan niet worden gevonden, zodat de map teruggezet naar de standaard is geweest.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Eindeloos land en zee</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>automatisch opnieuw starten</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>automatisch starten</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Beschikbaar</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Avatars zijn in de wereld! Wil je echt wilt stoppen?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>backup Databases</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Backup Data Files</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>backup Folder</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>backup</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Slechte coördinaten</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Klik op te zetten Grid, MAC-adres en IP bans</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>zwart</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Opstarten</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Border Size (default = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>Bullet fysica in afzonderlijke thread</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>Braziliaans (Portguese)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Chat tij info aan de regio, zodat scripts kan bewegen met de stroom?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Druk</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Kan instellingen INI laden</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>caches</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>Categorie</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>Voorzichtigheid! Hiermee worden 150+ OARS en regio's in uw systeem geladen. Dit duurt lang.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>Voorzichtigheid!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Midden van de kaart te coördineren</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>Controle Router</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>controleren</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Controleren en repareren van Database</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Cache wissen</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Wist alle objecten in alle vierkanten en laadt de OAR</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Clear Selected Caches</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>Overschrijf het terrein van de bestaande regio niet.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Klik om te starten of stoppen Robuust</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>De regio default 'Welcome' is niet gevonden in het systeem. Doorgaan met?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Verwijderen op leeftijd</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>Verwijderde</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Gooi alle wijzigingen en Exit?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>De schijfruimte is kritiek laag, minder dan 50 M over! Alle regio's zijn bevroren. Maak schijfruimte vrij en de regio's zullen ontdooien.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Diva Panel</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>Engels</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Stel de naam van het landgoed in het DOS-veld in.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Voer een naam voor uw back-up</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Voer de Grid Owner Information</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Dit zal de HELE sim wissen en een nieuwe sim laden. Weet je het zeker?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Fout: kan niet starten DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>Uitgang</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Exporteer alle kaarten</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>Export back-upbestand</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>Geen verbinding maken met de website.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>Kan instellingen INI laden</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Vals</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Farsi (Iran)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>fataal</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>Hoog water merken in meters</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Home gestopt</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>Huis</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>OpenSim zal OARS redden na het uitvoeren van deze lange</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Negeer de nieuwe pakketgegevens.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>Negeer Parcel</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Slechts één regio</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Keep On Top</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Altijd bewaren</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Bewaren voor dagen</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Khazakistan</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Landmaker</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>Landschapsarchitectuur</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Taal</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Bekijk de lijst van Avatars</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>geladen.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Laad alle gratis roeispanen</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>Loading Settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>load Terrain</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Forceer terreinbelasting op --merge. Normaal gesproken overschrijft --merge het terrein van de bestaande regio niet.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>lokaal</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Max Speed ​​(default = 1.0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Overschrijf de pakketgegevens van de bestaande regio.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>Merge OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Voegt de OAR samen zonder objecten te verwijderen</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>Merge Objects</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Niemand is online</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Geen login</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>Geen</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>Kan FSasset map niet vinden:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>Geen overlappende regio's</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>Mis deze regio niet publiceren</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>Sleutel</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Voorwerpen</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Object pad en de naam</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>PDF Manual</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>In afwachting</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>mensen zijn in</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Port Forwarding Help</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>mogelijke overlappende regio's</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Voorbeeld in browser</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>Openbaar IP-setup</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>Public Photo</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Publiceren Raster om Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Publiceer Items gemarkeerd voor zoeken</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Stoppen</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>Het systeem en andere toepassingen die worden niet aangetast. Een rapport is gemaakt die u Outworldz, LLC kan sturen om te helpen dit probleem te identificeren.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>Recycle</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Recycling naar beneden</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Recyclen</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Verfrissende Gratis Content (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>opgelost</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Nu opnieuw opstarten</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>Het opnieuw starten</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Zoeken naar Grids (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Hoelang een lopende regio blijft bestaan nadat een avatrar is vertrokken</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>seconden</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>Geheim</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Set Debug Level</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>U kunt ervoor kiezen om deze aan een persoon te geven. Standaard is de Estate Owner.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>set Owner</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>Kleine Metro kaart</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Smart Start (Alfacode) instelling</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start inschakelen</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>Spaans</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Spaans (Mexico)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Spaans (Spanje)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Viewer Beginschermblokkering URL:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>SQL Database Backup / Restore</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Afsluiten in seconden</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (Alfacode) in Instellingen-&gt; Smart Start is uitgeschakeld.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>Smart Start (alfa) code in Instellingen-&gt; Smart Start is ingeschakeld.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Start alle geselecteerde regio's</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>Startlocatie?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>Vanaf Diagnostic Port Webserver</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Inschakelen Inventory Suitcase</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>Het opschorten</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Geschorst</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>Zweeds</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Thema set to Black</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>Thema ingesteld op Aangepast</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Thema set naar White</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>Overdracht</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Maak bomen als XML-bestanden</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Bomen en planten</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Probleemoplossen</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>Klopt</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Schakelt Apache webserver te draaien als een service.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>Versie</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Bekijk alle kaarten</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>Standaard: ingeschakeld. Gebruikers kan nodig zijn om de bandbreedte kijker te verminderen als sommige prims of terrein onderdelen niet aan rez. Wissel naar false als je nodig hebt om de oude kijkers die deze functie niet ondersteunen gebruiken</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Voice-instellingen</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Aan het wachten</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Wachten op Robuuste om te beginnen</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>Wachten op alle regio's om af te sluiten</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Wacht op scripts</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>Waarschuwen</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Webserver + Search and Map</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Web Download Link</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Web-poort (80 of 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>De Web UI kunt u de weergave-instellingen toe te voegen of om een ​​avatar.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>Welk landgoed?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>Welke landgoednaam wilt u? Blanco = je moet het 150+ keer invoeren!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>Wat wil je zeggen tegen iedereen op de lijn?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>Wat wil je zeggen tegen deze regio?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>Waar te beginnen? (Regio's groeien naar rechts en naar boven)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Welk kanaal hoeft vogels luisteren naar in-world opdrachten. Negatieve getallen kunnen niet worden gebruikt door de mens</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>Thema ingesteld op Aangepast</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>Arabisch (Saudi)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Farsi (Iran)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>Braziliaans (Portguese)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Khazakistan</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Spaans (Mexico)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Spaans (Spanje)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>seconden</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>In afwachting</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Geschorst</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Geen login</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Aan het wachten</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Nu opnieuw opstarten</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Stoppen</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Opstarten</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Afsluiten in seconden</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Recyclen</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Bekijk alle kaarten</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Wacht op scripts</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Hoelang een lopende regio blijft bestaan nadat een avatrar is vertrokken</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Home gestopt</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Recycling naar beneden</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Slechte coördinaten</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>Voorzichtigheid! Hiermee worden 150+ OARS en regio's in uw systeem geladen. Dit duurt lang.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>Voorzichtigheid!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>De schijfruimte is kritiek laag, minder dan 50 M over! Alle regio's zijn bevroren. Maak schijfruimte vrij en de regio's zullen ontdooien.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Stel de naam van het landgoed in het DOS-veld in.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>geladen.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Laad alle gratis roeispanen</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Smart Start (Alfacode) instelling</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (Alfacode) in Instellingen-&gt; Smart Start is uitgeschakeld.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>Smart Start (alfa) code in Instellingen-&gt; Smart Start is ingeschakeld.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>Startlocatie?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>Welk landgoed?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>Welke landgoednaam wilt u? Blanco = je moet het 150+ keer invoeren!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>Waar te beginnen? (Regio's groeien naar rechts en naar boven)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Beschikbaar</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Wist alle objecten in alle vierkanten en laadt de OAR</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>Overschrijf het terrein van de bestaande regio niet.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Negeer de nieuwe pakketgegevens.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Forceer terreinbelasting op --merge. Normaal gesproken overschrijft --merge het terrein van de bestaande regio niet.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Overschrijf de pakketgegevens van de bestaande regio.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Voegt de OAR samen zonder objecten te verwijderen</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Voorwerpen</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>U kunt ervoor kiezen om deze aan een persoon te geven. Standaard is de Estate Owner.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Dit zal de HELE sim wissen en een nieuwe sim laden. Weet je het zeker?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>controleren</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>Geen overlappende regio's</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>mogelijke overlappende regio's</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Eindeloos land en zee</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Vals</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Maak bomen als XML-bestanden</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>Klopt</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Exporteer alle kaarten</value>
   </data>
 </root>

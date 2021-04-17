@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Алфавитно-цифровой плюс знак минус и символ пробела</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Анализировать журнал</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>Объявить посетители</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>Подать заявление</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>Арабский (Саудовская Аравия)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>Уверены ли вы? Ваша база данных будет загружена из резервной копии, и все существующее содержимое заменено. Аватары, симы, инвентарь, Everyting будет перезаписать.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>папка Autobackup не может располагаться, так папка была сброшена по умолчанию.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Бесконечная земля и море</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>Автоматический перезапуск</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>Автоматический запуск</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Имеется в наличии</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Аватары в мире! Вы действительно хотите выйти?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>Резервное копирование базы данных</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Резервное копирование файлов данных</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>Резервное копирование папки</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>Резервный</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Плохие координаты</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Нажмите, чтобы настроить сетку, MAC-адрес и IP баны</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>Чернить</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Загрузка</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Размер границы (по умолчанию = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>физика пули в отдельном потоке</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>Бразильский (Портгезе)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Чат прилива информации в регионе, так сценарии могут двигаться по течению?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Занятый</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Не удалось загрузить настройки INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>Тайники</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>категория</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>Осторожность! Это загрузит в вашу систему 150+ OARS и регионов. Это займет много времени.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>Осторожность!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Центр координат карты</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>Проверка маршрутизатора</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>проверка</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Проверить и восстановить базу данных</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Очистить кэш</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Очищает все объекты во всех квадратах и загружает ВЕСЛО.</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Очистить Избранные кэша</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>Не перезаписывайте существующий ландшафт региона.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Нажмите для запуска или остановки Robust</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>«Добро пожаловать» регион по умолчанию не найден в системе. Продолжать?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Удалить по возрасту</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>Исключен</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Отменить все изменения и выйти?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>На диске критически мало места, осталось менее 50 Мбайт! Все регионы заморожены. Пожалуйста, освободите место на диске, и регионы оттают.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Diva панель</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>английский</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Задайте имя поместья в поле DOS.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Введите имя для резервного копирования</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Введите сетки Данные о владельце</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Это сотрет ВСЮ сим-карту и загрузит новую. Ты уверен?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Ошибка: не удалось запустить DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>Выход</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Экспорт всех карт</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>Экспорт файла резервной копии</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>Не удалось подключиться к веб-сайту.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>Не удалось загрузить настройки INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Фарси (Иран)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>фатальный</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>Высокие оценки воды в метрах</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Дом Остановлен</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>Дома</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>OpenSim сэкономит ВЕСЛА после запуска этого долго</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Игнорируйте новые данные об участках.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>Игнорирование посылок</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Только один регион</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Оставайся наверху</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Всегда держать</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Держите в течение нескольких дней</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Казахстан</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Земледелец</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>Ландшафтный дизайн</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Язык</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Просмотреть список аватаров</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>загружен.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Загрузить все свободные весла</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>Загрузка Settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>Нагрузка Terrain</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Включить загрузку ландшафта на --merge. Обычно --merge не перезаписывает существующий ландшафт региона.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>Местный</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Максимальная скорость (по умолчанию = 1,0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Перезаписать данные об участках существующего региона.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>Объединить ОАР</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Объединяет ВЕСЛО без очистки каких-либо объектов</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>Объединить объекты</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Ни один человек не на сайте</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Нет входа</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>Никто</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>Не удается найти папку FSasset:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>Нет пересекающихся регионов</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>Не публикуйте этот регион</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>Ключ</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Объекты</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Путь объекта и имя</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>Руководство PDF</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>В ожидании</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>люди в</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Port Forwarding Помощь</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>потенциальные перекрывающиеся регионы</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Просмотр в браузере</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>Настройка IP публики</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>Общественная фотография</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Опубликовать Сетка для Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Опубликовать Поля отмеченные для поиска</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Выход</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>Система и другие не услуга Applications были затронуты. Отчет был создан, что вы можете отправить Outworldz, LLC, чтобы помочь идентифицировать эту проблему.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>Перерабатывать</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Переработка пуха</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Переработка вверх</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Освежающий Free Content (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>решены</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Перезагрузка сейчас</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>Перезапуск</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Поиск Сетки (WWW)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Как долго текущий регион будет оставаться активным после ухода аватрара</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>с</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>секрет</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Установить уровень отладки</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>Вы можете отдать их человеку. По умолчанию - владелец недвижимости.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>Установить владельца</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>карта Малого метро</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Настройка Smart Start (Alpha code)</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Enable</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>испанский</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Испанский (Мексика)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Испанский (Испания)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Телезритель Всплеск URL экрана:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>База данных SQL Резервного копирование / восстановление</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Выключение за секунды</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (Alpha code) в Настройках-&gt; Smart Start отключен.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>Код Smart Start (Alpha) в Настройках-&gt; Smart Start включен.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Запустить все отмеченные регионы</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>Начальное местоположение?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>Запуск Диагностический порт вебсервер</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Включение инвентаризации Чемодан</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>суспендирующий</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Приостановленный</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>шведский</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Тема набор Блэку</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>Тема установлена на Custom</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Тема набор Уайт</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>Передача</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Создавайте деревья как файлы XML</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Деревья и растения</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Исправление проблем</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>Правда</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Включает Apache Web-сервер для работы в качестве службы.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>Версия</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Посмотреть все карты</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>По умолчанию: Enabled. Пользователи, возможно, потребуется уменьшить ширину полосы просмотра, если некоторые примы или части местности не резь. Изменение в ЛОЖЬ, если вам нужно использовать старые зрители, которые не поддерживают эту функцию</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Настройки тембра</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Ожидающий</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Ожидание Robust, чтобы начать</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>Жду все регионы к выходу</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Подождите скриптов</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>Предупреждать</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Вебсервер + Поиск и Карта</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Web Ссылка для скачивания</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Веб-порт (80 или 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>Веб-интерфейс позволяет добавлять или просматривать настройки для любого аватара.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>Какое имение?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>Какое название поместья вы хотите? Пробел = вы должны ввести его 150+ раз!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>Что вы хотите сказать все на линии?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>Что вы хотите сказать, в этот регион?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>Когда начать? (Области растут вправо и вверх)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Какой канал у птиц слушают команды в виртуальном мире. Отрицательные числа не могут быть использованы людьми</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>Тема установлена на Custom</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>Арабский (Саудовская Аравия)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Фарси (Иран)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>Бразильский (Портгезе)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Казахстан</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Испанский (Мексика)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Испанский (Испания)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>с</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>В ожидании</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Приостановленный</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Нет входа</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Ожидающий</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Перезагрузка сейчас</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Выход</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Загрузка</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Выключение за секунды</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Переработка вверх</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Посмотреть все карты</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Подождите скриптов</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Как долго текущий регион будет оставаться активным после ухода аватрара</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Дом Остановлен</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Переработка пуха</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Плохие координаты</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>Осторожность! Это загрузит в вашу систему 150+ OARS и регионов. Это займет много времени.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>Осторожность!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>На диске критически мало места, осталось менее 50 Мбайт! Все регионы заморожены. Пожалуйста, освободите место на диске, и регионы оттают.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Задайте имя поместья в поле DOS.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>загружен.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Загрузить все свободные весла</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Настройка Smart Start (Alpha code)</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (Alpha code) в Настройках-&gt; Smart Start отключен.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>Код Smart Start (Alpha) в Настройках-&gt; Smart Start включен.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>Начальное местоположение?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>Какое имение?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>Какое название поместья вы хотите? Пробел = вы должны ввести его 150+ раз!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>Когда начать? (Области растут вправо и вверх)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Имеется в наличии</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Очищает все объекты во всех квадратах и загружает ВЕСЛО.</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>Не перезаписывайте существующий ландшафт региона.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Игнорируйте новые данные об участках.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Включить загрузку ландшафта на --merge. Обычно --merge не перезаписывает существующий ландшафт региона.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Перезаписать данные об участках существующего региона.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Объединяет ВЕСЛО без очистки каких-либо объектов</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Объекты</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>Вы можете отдать их человеку. По умолчанию - владелец недвижимости.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Это сотрет ВСЮ сим-карту и загрузит новую. Ты уверен?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>проверка</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>Нет пересекающихся регионов</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>потенциальные перекрывающиеся регионы</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Бесконечная земля и море</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Ложь</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Создавайте деревья как файлы XML</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>Правда</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Экспорт всех карт</value>
   </data>
 </root>

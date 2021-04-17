@@ -22,12 +22,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_ExcelExportMode = MultipleSheets
-		SolutionGuid = {8A3689AC-C2EC-4C3F-9BD8-815842380D9F}
-		RESX_AutoCreateNewLanguageFiles = True
-		RESX_ConfirmAddLanguageFile = True
-		RESX_DuplicateKeyHandling = Rename
-		RESX_ShowPerformanceTraces = True
 		RESX_TaskErrorCategory = Warning
+		RESX_ShowPerformanceTraces = True
+		RESX_DuplicateKeyHandling = Rename
+		RESX_ConfirmAddLanguageFile = True
+		RESX_AutoCreateNewLanguageFiles = True
+		SolutionGuid = {8A3689AC-C2EC-4C3F-9BD8-815842380D9F}
+		RESX_ExcelExportMode = MultipleSheets
 	EndGlobalSection
 EndGlobal

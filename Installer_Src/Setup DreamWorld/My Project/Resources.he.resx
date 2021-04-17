@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>אלפא-נומרי סימן פלוס מינוס ואופי החלל</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>ניתוח יומן</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>הכרז מבקרים</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>להגיש מועמדות</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>ערבית (סעודיה)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>האם אתה בטוח? הנתונים שלך יהיה טעון מהגיבוי וכל התוכן הקיים מוחלף. אווטרים, סימס, מלאה, everyting ייכתבו מעל.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>תיקיית Autobackup לא יכולה להיות ממוקמת, כך בתיקייה אופסה לברירת המחדל.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>אינסוף יבשה וים</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>Automatic Restart</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>אתחול אוטומטי</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>זמין</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>אווטרים נמצאים בעולם! האם אתה באמת רוצה לצאת?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>מאגרי גיבוי</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>קובצי נתונים גיבוי</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>תיקיית גיבוי</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>גיבוי</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>קואורדינטות גרועות</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>לחץ כדי להגדיר רשת, כתובת MAC ו איסורים IP</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>שָׁחוֹר</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>אתחול</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>גודל גבול (ברירת מחדל = 25.0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>פיזיקה Bullet פתיל נפרד</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>ברזילאי (פורטגזה)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Chat מידע גאות לאזור כך סקריפטים יכול לנוע עם הזרם?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>עסוק</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>נכשל הניסיון לטעון הגדרות INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>מטמון</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>קטגוריה</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>זְהִירוּת! זה יטען 150+ OARS ואזורים למערכת שלך. זה ייקח הרבה זמן.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>זְהִירוּת!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>במרכז המפה לתאם</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>בדיקת נתב</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>בודק</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>מסד בדיקה ותיקון</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>נקה מטמון</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>מנקה את כל האובייקטים בכל הריבועים וטוען את ה- OAR</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>מטמונים נבחרים נקה</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>אל תחליף את השטח הקיים באזור.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>לחץ כדי להפעיל או להפסיק חזק</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>ברירת המחדל "ברוכים הבאים" באזור לא נמצא במערכת. לְהַמשִׁיך?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>מחק לפי גיל</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>שנמחק</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>בטל את כל השינויים ויציאה?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>שטח הדיסק נמוך באופן קריטי, נותר פחות מ- 50 מ '! כל האזורים קפואים. אנא פנה מקום בדיסק והאזורים יפשירו.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>לוח דיווה</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>אנגלית</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>הגדר את שם האחוזה בתיבה DOS.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>הזן שם עבור הגיבוי שלך</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>הזן את פרטי בעלי Grid</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>פעולה זו תמחק את ה- SIM שלם ותטען סים חדש. האם אתה בטוח?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>שגיאה: אין אפשרות להפעיל DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>יְצִיאָה</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>ייצא את כל המפות</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>קובץ גיבוי יצוא</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>נכשל ניסיון להתחבר לאתר אינטרנט.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>נכשל הניסיון לטעון הגדרות INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>שֶׁקֶר</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>פרסית (איראן)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>קָטלָנִי</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>סימני מים גבוהים במטרים</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>בית נעצר</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>בית</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>Opensim יחסוך משוטים לאחר ריצה זו ארוכה</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>התעלם מנתוני החבילות החדשים.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>התעלם Parcel</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>רק אחד באזור</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>לשמור על גבי</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>שמור תמיד</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>שמור במשך ימים</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>חזקיסטן</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>יצרנית קרקעות</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>אדריכלות נוף</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>שפה</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>צפו ברשימה של אווטרים</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>עמוס.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>טען את כל השחלות החינמיות</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>טוען settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>Terrain טען</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>כוח טעינת שטח ב - Merge. בדרך כלל, --merge אינו מחליף את השטח הקיים באזור.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>מְקוֹמִי</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>מהירות מקסימלית (ברירת מחדל = 1.0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>החלף את נתוני החבילות של האזור.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>משוט Merge</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>ממזג את ה- OAR מבלי לנקות חפצים כלשהם</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>אובייקטים Merge</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>אין אדם מחובר</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>אין כניסה</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>אף אחד</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>אין אפשרות לאתר תיקיית FSasset:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>אין אזורים חופפים</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>אל תפרסם את האזור הזה</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>מַפְתֵחַ</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>חפצים</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>נתיב ושם אובייקט</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>ידני PDF</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>ממתין ל</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>אנשים נמצאים</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>עזרת העברת נמל</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>אזורים חופפים פוטנציאליים</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>תצוגה מקדימה בדפדפן</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>התקנה הציבורית IP</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>תמונות ציבוריות</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>פרסם Grid כדי Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>פרסם פריטי מסומן לחיפוש</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>מפסיק</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>המערכת ואת applictions אחרים לא נפגעו. דו"ח נוצר כי אתה יכול לשלוח Outworldz, LLC כדי לסייע בזיהוי הבעיה הזו.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>לְמַחְזֵר</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>מיחזור למטה</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>מיחזור למעלה</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>מרענן חינם תוכן (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>נפתר</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>מתחיל מחדש כעת</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>הפעלה מחדש</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>חפש רשתות (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>כמה זמן אזור פועל יישאר ער לאחר שהאווטאר עזב</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>שניות</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>סוֹד</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>סט Debug רמה</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>אתה יכול לבחור לתת את זה לאדם. ברירת המחדל היא בעל האחוזה.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>בעלים שהוגדר</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>המפה הקטנה מטרו</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>הגדרת התחלה חכמה (קוד אלפא)</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Enable</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>ספרדית</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>ספרדית (מקסיקו)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>ספרדית (ספרד)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>כתובת האתר מסך הפתיחה מציג:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>גיבוי מסד נתונים SQL / Restore</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>כיבוי בשניות</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>התחלה חכמה (קוד אלפא) בהגדרות-&gt; התחלה חכמה מושבתת.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>קוד התחלה חכמה (אלפא) בהגדרות-&gt; התחלה חכמה מופעלת.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>התחל כל האזורים בדק</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>מתחיל מיקום?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>החל אבחון נמל וואבסארואר</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>אפשר מזוודה מלאה</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>השעיית</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>מוּשׁהֶה</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>שוודית</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>סט Theme to Black</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>ערכת הנושא הותאמה אישית</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>סט Theme ל White</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>לְהַעֲבִיר</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>צור עצים כקבצי XML</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>עצים וצמחים</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>פתרון תקלות</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>נָכוֹן</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>מאפשר שרת Apache Web לרוץ כשירות.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>גִרְסָה</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>צפה בכל המפות</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>ברירת מחדל: Enabled. משתמשים יכולים צריכים לצמצם את רוחב הפס הצופה אם חלק prims או חלקי השטח מצליחים ורז. שינוי ל false אם אתה צריך להשתמש צופים ישנים שאיננו תומכים בתכונה זו</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>הגדרות קול</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>הַמתָנָה</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>הממתין חזק כדי להתחיל</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>מחכה כל האזורים ליציאה</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>המתן לתסריטים</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>לְהַזהִיר</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>חיפוש + וואבסארואר ו מפה</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>קישור להורדה באינטרנט</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>אינטרנט פורט (80, או 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>הממשק באינטרנט מאפשר להוסיף או הגדרות תצוגה עבור דמות כלשהי.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>איזה אחוזה?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>איזה שם אחוזה אתה רוצה? ריק = עליך להזין אותו 150+ פעמים!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>מה אתה רוצה להגיד לכולם על קו?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>מה אתה רוצה להגיד לאזור זה?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>איפה להתחיל? (אזורים צומחים ימינה ומעלה)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>איזה ערוץ אל הציפורים להקשיב לפקודות ב-עולם. מספרים שליליים לא יכול להיות בשימוש על ידי בני אדם</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>ערכת הנושא הותאמה אישית</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>ערבית (סעודיה)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>פרסית (איראן)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>ברזילאי (פורטגזה)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>חזקיסטן</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>ספרדית (מקסיקו)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>ספרדית (ספרד)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>שניות</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>ממתין ל</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>מוּשׁהֶה</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>אין כניסה</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>הַמתָנָה</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>מתחיל מחדש כעת</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>מפסיק</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>אתחול</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>כיבוי בשניות</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>מיחזור למעלה</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>צפה בכל המפות</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>המתן לתסריטים</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>כמה זמן אזור פועל יישאר ער לאחר שהאווטאר עזב</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>בית נעצר</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>מיחזור למטה</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>קואורדינטות גרועות</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>זְהִירוּת! זה יטען 150+ OARS ואזורים למערכת שלך. זה ייקח הרבה זמן.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>זְהִירוּת!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>שטח הדיסק נמוך באופן קריטי, נותר פחות מ- 50 מ '! כל האזורים קפואים. אנא פנה מקום בדיסק והאזורים יפשירו.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>הגדר את שם האחוזה בתיבה DOS.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>עמוס.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>טען את כל השחלות החינמיות</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>הגדרת התחלה חכמה (קוד אלפא)</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>התחלה חכמה (קוד אלפא) בהגדרות-&gt; התחלה חכמה מושבתת.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>קוד התחלה חכמה (אלפא) בהגדרות-&gt; התחלה חכמה מופעלת.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>מתחיל מיקום?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>איזה אחוזה?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>איזה שם אחוזה אתה רוצה? ריק = עליך להזין אותו 150+ פעמים!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>איפה להתחיל? (אזורים צומחים ימינה ומעלה)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>זמין</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>מנקה את כל האובייקטים בכל הריבועים וטוען את ה- OAR</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>אל תחליף את השטח הקיים באזור.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>התעלם מנתוני החבילות החדשים.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>כוח טעינת שטח ב - Merge. בדרך כלל, --merge אינו מחליף את השטח הקיים באזור.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>החלף את נתוני החבילות של האזור.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>ממזג את ה- OAR מבלי לנקות חפצים כלשהם</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>חפצים</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>אתה יכול לבחור לתת את זה לאדם. ברירת המחדל היא בעל האחוזה.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>פעולה זו תמחק את ה- SIM שלם ותטען סים חדש. האם אתה בטוח?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>בודק</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>אין אזורים חופפים</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>אזורים חופפים פוטנציאליים</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>אינסוף יבשה וים</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>שֶׁקֶר</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>צור עצים כקבצי XML</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>נָכוֹן</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>ייצא את כל המפות</value>
   </data>
 </root>

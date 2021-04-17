@@ -186,6 +186,9 @@
   <data name="AlphaNum" xml:space="preserve">
     <value>Aakkosnumeeriset plus miinusmerkki ja välilyönti</value>
   </data>
+  <data name="AnalyzeLogButton" xml:space="preserve">
+    <value>Analysoi loki</value>
+  </data>
   <data name="Announce_visitors" xml:space="preserve">
     <value>Ilmoita Vierailijat</value>
   </data>
@@ -234,6 +237,9 @@
   <data name="Apply_word" xml:space="preserve">
     <value>Käytä</value>
   </data>
+  <data name="Arabic_Saudi" xml:space="preserve">
+    <value>arabia (saudi)</value>
+  </data>
   <data name="Are_You_Sure" xml:space="preserve">
     <value>Oletko varma? Lisätään tietokannasta ladataan varmuuskopio ja kaikki nykyinen sisältö korvataan. Avatareja, sims, inventaario, everyting kirjoitetaan yli.</value>
   </data>
@@ -248,6 +254,9 @@
   </data>
   <data name="Autobackup_cannot_be_located" xml:space="preserve">
     <value>AutoBackup kansiota ei löydy, joten kansio on palautettu oletuksena.</value>
+  </data>
+  <data name="AutoFill" xml:space="preserve">
+    <value>Loputon maa ja meri</value>
   </data>
   <data name="Automatic_restart_word" xml:space="preserve">
     <value>automaattinen uudelleenkäynnistys</value>
@@ -269,6 +278,9 @@
   </data>
   <data name="Auto_Startup_word" xml:space="preserve">
     <value>automaattinen käynnistys</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Saatavilla</value>
   </data>
   <data name="Avatars_in_World" xml:space="preserve">
     <value>Avatarit ovat maailmassa! Oletteko todella haluavat lopettaa?</value>
@@ -300,9 +312,6 @@
   <data name="Backup_Databases" xml:space="preserve">
     <value>backup Tietokannat</value>
   </data>
-  <data name="Backup_Data_Files_word" xml:space="preserve">
-    <value>Backup Datatiedostot</value>
-  </data>
   <data name="Backup_Folder" xml:space="preserve">
     <value>varmuuskopiokansioon</value>
   </data>
@@ -332,6 +341,9 @@
   </data>
   <data name="Backup_word" xml:space="preserve">
     <value>Varmuuskopioida</value>
+  </data>
+  <data name="BadCoordinates" xml:space="preserve">
+    <value>Huonot koordinaatit</value>
   </data>
   <data name="BanList_string" xml:space="preserve">
     <value>Klikkaa perustaa Grid, MAC-osoite ja IP kiellot</value>
@@ -369,11 +381,17 @@
   <data name="Black_word" xml:space="preserve">
     <value>Musta</value>
   </data>
+  <data name="Booting_word" xml:space="preserve">
+    <value>Käynnistys</value>
+  </data>
   <data name="Border_Size" xml:space="preserve">
     <value>Reunan koko (oletus = 25,0)</value>
   </data>
   <data name="BP" xml:space="preserve">
     <value>Bullet fysiikan erillisen säikeen</value>
+  </data>
+  <data name="Brazilian" xml:space="preserve">
+    <value>brasilialainen (Portguese)</value>
   </data>
   <data name="Broadcast_Tide_Chat" xml:space="preserve">
     <value>Chat vuorovesi info alueelle niin skriptejä voi liikkua vuorovesi?</value>
@@ -392,6 +410,9 @@
   </data>
   <data name="Busy_word" xml:space="preserve">
     <value>Kiireinen</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Lataaminen epäonnistui Asetukset INI</value>
   </data>
   <data name="Caches_word" xml:space="preserve">
     <value>välimuistit</value>
@@ -441,6 +462,12 @@
   <data name="Category_word" xml:space="preserve">
     <value>Kategoria</value>
   </data>
+  <data name="CautionOAR" xml:space="preserve">
+    <value>Varoitus! Tämä lataa yli 150 airoa ja aluetta järjestelmääsi. Tämä kestää kauan.</value>
+  </data>
+  <data name="Caution_word" xml:space="preserve">
+    <value>Varoitus!</value>
+  </data>
   <data name="CenterMap" xml:space="preserve">
     <value>Kartan keskelle koordinoida</value>
   </data>
@@ -473,6 +500,9 @@
   </data>
   <data name="Checking_Router_word" xml:space="preserve">
     <value>Tarkistetaan reititin</value>
+  </data>
+  <data name="checking_word" xml:space="preserve">
+    <value>tarkistus</value>
   </data>
   <data name="Check_and_Repair_Database_word" xml:space="preserve">
     <value>Tarkista ja korjaa tietokanta</value>
@@ -543,8 +573,14 @@
   <data name="Clear_Cache_word" xml:space="preserve">
     <value>Tyhjennä välimuisti</value>
   </data>
+  <data name="Clear_objects_tooltip" xml:space="preserve">
+    <value>Tyhjentää kaikki objektit kaikilla neliöillä ja lataa OAR: n</value>
+  </data>
   <data name="Clear_Selected_Caches_word" xml:space="preserve">
     <value>Tyhjennä valitut välimuistit</value>
+  </data>
+  <data name="Clear_Terrain_tooltip" xml:space="preserve">
+    <value>Älä korvaa nykyisen alueen maastoa.</value>
   </data>
   <data name="ClickStartStop" xml:space="preserve">
     <value>Klikkaa aloittaa tai lopettaa Kestävä</value>
@@ -777,6 +813,9 @@
   <data name="Default_Welcome" xml:space="preserve">
     <value>Oletuksena 'Tervetuloa' aluetta ei löydy järjestelmästä. Jatkaa?</value>
   </data>
+  <data name="DeletebyAge" xml:space="preserve">
+    <value>Poista iän mukaan</value>
+  </data>
   <data name="Deleted_word" xml:space="preserve">
     <value>Poistettu</value>
   </data>
@@ -848,6 +887,9 @@
   </data>
   <data name="Discard_Exit" xml:space="preserve">
     <value>Hylätä kaikki muutokset ja lopeta?</value>
+  </data>
+  <data name="Diskspacelow" xml:space="preserve">
+    <value>Levytilaa on kriittisesti vähän, alle 50 M jäljellä! Kaikki alueet ovat jäätyneet. Vapauta levytilaa ja alueet sulavat.</value>
   </data>
   <data name="Diva_Panel_word" xml:space="preserve">
     <value>Diva Panel</value>
@@ -951,6 +993,9 @@
   <data name="English" xml:space="preserve">
     <value>Englanti</value>
   </data>
+  <data name="EnterEstateName" xml:space="preserve">
+    <value>Aseta Estate nimi DOS-ruutuun.</value>
+  </data>
   <data name="EnterName" xml:space="preserve">
     <value>Anna nimi varmuuskopio</value>
   </data>
@@ -965,6 +1010,9 @@
   </data>
   <data name="Enter_the_Grid_Owner_Information_word" xml:space="preserve">
     <value>Anna Grid Omistajan tiedot</value>
+  </data>
+  <data name="Erase_all" xml:space="preserve">
+    <value>Tämä poistaa KOKO simin ja lataa uuden simin. Oletko varma?</value>
   </data>
   <data name="ErrInstall" xml:space="preserve">
     <value>Virhe: ei voitu käynnistää DreamGridInstaller.exe.</value>
@@ -999,6 +1047,9 @@
   <data name="Exit__word" xml:space="preserve">
     <value>poistuminen</value>
   </data>
+  <data name="ExportAllMaps" xml:space="preserve">
+    <value>Vie kaikki kartat</value>
+  </data>
   <data name="Export_Backup_file_word" xml:space="preserve">
     <value>Vie varmuuskopio</value>
   </data>
@@ -1020,8 +1071,11 @@
   <data name="Failed_LAN" xml:space="preserve">
     <value>Yhdistäminen epäonnistui kotisivuilta.</value>
   </data>
-  <data name="c" xml:space="preserve">
-    <value>Lataaminen epäonnistui Asetukset INI</value>
+  <data name="False_word" xml:space="preserve">
+    <value>Väärä</value>
+  </data>
+  <data name="Farsi" xml:space="preserve">
+    <value>Farsi (Iran)</value>
   </data>
   <data name="Fatal_word" xml:space="preserve">
     <value>kohtalokas</value>
@@ -1224,6 +1278,9 @@
   <data name="High_Water_Level_text" xml:space="preserve">
     <value>Korkea vesitahrat metreinä</value>
   </data>
+  <data name="Home_Stopped" xml:space="preserve">
+    <value>Koti pysäytetty</value>
+  </data>
   <data name="Home_word" xml:space="preserve">
     <value>Koti</value>
   </data>
@@ -1304,6 +1361,9 @@
   </data>
   <data name="If_Enabled_Save_Oars" xml:space="preserve">
     <value>Opensim säästää airot suorittamisen jälkeen pitkään</value>
+  </data>
+  <data name="IgnoreParcels_tooltip" xml:space="preserve">
+    <value>Ohita uudet pakettitiedot.</value>
   </data>
   <data name="Ignore_Parcel_word" xml:space="preserve">
     <value>Ohita Parcel</value>
@@ -1407,11 +1467,20 @@
   <data name="Just_one_region_word" xml:space="preserve">
     <value>Vain yksi alue</value>
   </data>
-  <data name="KeepOnTop_word" xml:space="preserve">
-    <value>Pitää huipulla</value>
+  <data name="KeepAlways" xml:space="preserve">
+    <value>Pidä aina</value>
   </data>
   <data name="Keep_for_Days_word" xml:space="preserve">
     <value>Säilytä päiviä</value>
+  </data>
+  <data name="Khazak" xml:space="preserve">
+    <value>Khazakistan</value>
+  </data>
+  <data name="LandMaker" xml:space="preserve">
+    <value>Maanrakentaja</value>
+  </data>
+  <data name="Landscaping" xml:space="preserve">
+    <value>Maisemointi</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Kieli</value>
@@ -1427,6 +1496,12 @@
   </data>
   <data name="ListAvatars" xml:space="preserve">
     <value>Katso luettelo hahmot</value>
+  </data>
+  <data name="Loaded_word" xml:space="preserve">
+    <value>ladattu.</value>
+  </data>
+  <data name="KeepOnTop_word" xml:space="preserve">
+    <value>Lataa kaikki ilmaiset airot</value>
   </data>
   <data name="Loading_Settings" xml:space="preserve">
     <value>Ladataan Settings.ini</value>
@@ -1469,6 +1544,9 @@
   </data>
   <data name="Load_Terrain" xml:space="preserve">
     <value>kuorma Terrain</value>
+  </data>
+  <data name="Load_Terrain_tooltip" xml:space="preserve">
+    <value>Pakota maasto kuormitettavaksi. Normaalisti --merge ei korvaa nykyisen alueen maastoa.</value>
   </data>
   <data name="Local" xml:space="preserve">
     <value>paikallinen</value>
@@ -1566,8 +1644,14 @@
   <data name="Max_Speed" xml:space="preserve">
     <value>Maksiminopeus (oletus = 1,0)</value>
   </data>
+  <data name="MergeParcels_tooltip" xml:space="preserve">
+    <value>Korvaa nykyisen alueen pakettitiedot.</value>
+  </data>
   <data name="Merge_OAR_word" xml:space="preserve">
     <value>yhdistämisen OAR</value>
+  </data>
+  <data name="Merge_objectstooltip" xml:space="preserve">
+    <value>Yhdistää OAR tyhjentämättä mitään esineitä</value>
   </data>
   <data name="Merge_Objects_word" xml:space="preserve">
     <value>yhdistämisen esineet</value>
@@ -1683,6 +1767,9 @@
   <data name="Nobody_Online" xml:space="preserve">
     <value>Kukaan ei ole verkossa</value>
   </data>
+  <data name="NoLogin_word" xml:space="preserve">
+    <value>Ei kirjautumista</value>
+  </data>
   <data name="None" xml:space="preserve">
     <value>Ei mitään</value>
   </data>
@@ -1740,6 +1827,9 @@
   <data name="No_Locate_FSassets" xml:space="preserve">
     <value>Ei löydy FSasset kansiota:</value>
   </data>
+  <data name="No_Overlaps" xml:space="preserve">
+    <value>Ei päällekkäisiä alueita</value>
+  </data>
   <data name="No_Publish_Items" xml:space="preserve">
     <value>Älä julkaise tätä aluetta</value>
   </data>
@@ -1778,6 +1868,9 @@
   </data>
   <data name="OAuth_Key" xml:space="preserve">
     <value>avain</value>
+  </data>
+  <data name="Objects_word" xml:space="preserve">
+    <value>Esineet</value>
   </data>
   <data name="Object_Path" xml:space="preserve">
     <value>Objektin polku ja nimi</value>
@@ -1851,6 +1944,9 @@
   <data name="PDF_Manual_word" xml:space="preserve">
     <value>PDF Manual</value>
   </data>
+  <data name="Pending_word" xml:space="preserve">
+    <value>Odottaa</value>
+  </data>
   <data name="people_are_in" xml:space="preserve">
     <value>ihmiset ovat</value>
   </data>
@@ -1902,6 +1998,9 @@
   <data name="Port_Forwarding_Help" xml:space="preserve">
     <value>Porttien Ohje</value>
   </data>
+  <data name="potential_overlap" xml:space="preserve">
+    <value>mahdolliset päällekkäiset alueet</value>
+  </data>
   <data name="Preview_in_Browser" xml:space="preserve">
     <value>Esikatselu selaimessa</value>
   </data>
@@ -1932,14 +2031,14 @@
   <data name="Public_IP_Setup_Word" xml:space="preserve">
     <value>Julkinen IP asetukset</value>
   </data>
-  <data name="Public_Photo_Word" xml:space="preserve">
-    <value>julkinen Photo</value>
-  </data>
   <data name="Publish_grid" xml:space="preserve">
     <value>Julkaise Grid Hyperica.com</value>
   </data>
   <data name="Publish_Items" xml:space="preserve">
     <value>Julkaise Kentät hakuun</value>
+  </data>
+  <data name="Quitting_word" xml:space="preserve">
+    <value>Lopettaa</value>
   </data>
   <data name="Quit_Message0" xml:space="preserve">
     <value>Järjestelmä ja muut Applications ei ole vaikuttanut. Raportti on luotu, että voit lähettää Outworldz, LLC auttaa tunnistamaan tätä ongelmaa.</value>
@@ -1967,6 +2066,12 @@
   </data>
   <data name="Recycle1" xml:space="preserve">
     <value>Kierrättää</value>
+  </data>
+  <data name="Recycling_Down_word" xml:space="preserve">
+    <value>Kierrätys alas</value>
+  </data>
+  <data name="Recycling_Up_word" xml:space="preserve">
+    <value>Kierrätys ylös</value>
   </data>
   <data name="RefreshingIAR" xml:space="preserve">
     <value>Virkistävä Vapaa sisältö (IAR)</value>
@@ -2090,6 +2195,9 @@
   </data>
   <data name="resolved" xml:space="preserve">
     <value>ratkaistu</value>
+  </data>
+  <data name="Restarting_Now_word" xml:space="preserve">
+    <value>Käynnistä uudelleen nyt</value>
   </data>
   <data name="Restarting_word" xml:space="preserve">
     <value>uudelleenkäynnistyksen</value>
@@ -2253,6 +2361,12 @@
   <data name="Search_grids" xml:space="preserve">
     <value>Hae Ristikot (www)</value>
   </data>
+  <data name="SecondsTips" xml:space="preserve">
+    <value>Kuinka kauan juokseva alue pysyy ylhäällä avatrarin lähdön jälkeen</value>
+  </data>
+  <data name="Seconds_word" xml:space="preserve">
+    <value>sekuntia</value>
+  </data>
   <data name="Secret_word" xml:space="preserve">
     <value>Salaisuus</value>
   </data>
@@ -2328,6 +2442,9 @@
   <data name="Set_Debug_Level_word" xml:space="preserve">
     <value>Set Debug Level</value>
   </data>
+  <data name="Set_Owner_tooltip" xml:space="preserve">
+    <value>Voit antaa nämä henkilölle. Oletuksena on kiinteistön omistaja.</value>
+  </data>
   <data name="Set_Owner_word" xml:space="preserve">
     <value>Aseta omistaja</value>
   </data>
@@ -2379,6 +2496,9 @@
   <data name="Small_Map" xml:space="preserve">
     <value>Pieni Metro kartta</value>
   </data>
+  <data name="SmartStartEnable" xml:space="preserve">
+    <value>Smart Start (Alpha code) -asetus</value>
+  </data>
   <data name="Smart_Start_Enable_word" xml:space="preserve">
     <value>Smart Start Ota</value>
   </data>
@@ -2409,6 +2529,12 @@
   <data name="Spanish" xml:space="preserve">
     <value>Espanja</value>
   </data>
+  <data name="Spanish_Mexico" xml:space="preserve">
+    <value>Espanja (Meksiko)</value>
+  </data>
+  <data name="Spanish_Spain" xml:space="preserve">
+    <value>Espanja (Espanja)</value>
+  </data>
   <data name="Splash" xml:space="preserve">
     <value>Katsoja Splash Screen URL:</value>
   </data>
@@ -2418,8 +2544,20 @@
   <data name="SQL_Database_Backup_Restore" xml:space="preserve">
     <value>SQL-tietokannan varmuuskopiointi / palautus</value>
   </data>
+  <data name="SSDelay" xml:space="preserve">
+    <value>Sammuta sekunneissa</value>
+  </data>
+  <data name="SSisDisabled" xml:space="preserve">
+    <value>Smart Start (Alpha-koodi) kohdassa Asetukset-&gt; Smart Start on pois käytöstä.</value>
+  </data>
+  <data name="SSisEnabled" xml:space="preserve">
+    <value>Smart Start (Alpha) -koodi kohdassa Asetukset-&gt; Smart Start on käytössä.</value>
+  </data>
   <data name="StartAll" xml:space="preserve">
     <value>Aloita kaikki tarkastetaan alueet</value>
+  </data>
+  <data name="StartingLocation" xml:space="preserve">
+    <value>Aloituspaikka?</value>
   </data>
   <data name="Starting_DiagPort_Webserver" xml:space="preserve">
     <value>Starting Diagnostic Port Webserverillä</value>
@@ -2490,8 +2628,8 @@
   <data name="Suitcase_enable" xml:space="preserve">
     <value>Ota Inventory Matkalaukku</value>
   </data>
-  <data name="Suspending_word" xml:space="preserve">
-    <value>keskeyttämisestä</value>
+  <data name="Suspended_word" xml:space="preserve">
+    <value>Keskeytetty</value>
   </data>
   <data name="Swedish" xml:space="preserve">
     <value>Ruotsin kieli</value>
@@ -2532,6 +2670,9 @@
   <data name="Theme_Black" xml:space="preserve">
     <value>Teema setti Black</value>
   </data>
+  <data name="Theme_Custom" xml:space="preserve">
+    <value>Teema asetettu mukautetuksi</value>
+  </data>
   <data name="Theme_White" xml:space="preserve">
     <value>Teema asetettu White</value>
   </data>
@@ -2568,8 +2709,17 @@
   <data name="Transfer_word" xml:space="preserve">
     <value>Siirtää</value>
   </data>
+  <data name="Trees" xml:space="preserve">
+    <value>Tee puista XML-tiedostoja</value>
+  </data>
+  <data name="TreesAndPlants" xml:space="preserve">
+    <value>Puut ja kasvit</value>
+  </data>
   <data name="Troubleshooting_word" xml:space="preserve">
     <value>Ongelmien karttoittaminen</value>
+  </data>
+  <data name="True_word" xml:space="preserve">
+    <value>Totta</value>
   </data>
   <data name="tt_Apache_Enable" xml:space="preserve">
     <value>Mahdollistaa Apache Web Server ajaa palveluna.</value>
@@ -2700,6 +2850,9 @@
   <data name="Version_word" xml:space="preserve">
     <value>Versio</value>
   </data>
+  <data name="ViewAllMaps" xml:space="preserve">
+    <value>Näytä kaikki kartat</value>
+  </data>
   <data name="Viewer_Cache_text" xml:space="preserve">
     <value>Oletus: Käytössä. Käyttäjät voivat joutua pienentämään katsoja kaistanleveyttä jos jotkut prims tai maaston osia eivät Rez. Vaihda false, jos haluat käyttää vanhaa katsojille, jotka eivät tue tätä ominaisuutta</value>
   </data>
@@ -2766,11 +2919,17 @@
   <data name="Voice_Settings_Word" xml:space="preserve">
     <value>Puheasetukset</value>
   </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Odottaa</value>
+  </data>
   <data name="Waiting_on_Robust" xml:space="preserve">
     <value>Odotetaan Kestävä aloittaa</value>
   </data>
   <data name="Waiting_text" xml:space="preserve">
     <value>Odotetaan kaikille alueille mahdollisuus poistua</value>
+  </data>
+  <data name="Wait_For_scripts" xml:space="preserve">
+    <value>Odota komentosarjoja</value>
   </data>
   <data name="Warn_word" xml:space="preserve">
     <value>Varoittaa</value>
@@ -2784,20 +2943,26 @@
   <data name="webserver_Search_map" xml:space="preserve">
     <value>Webserver + Haku ja kartta</value>
   </data>
-  <data name="Web_Download_Link_Word" xml:space="preserve">
-    <value>Internet Download Link</value>
-  </data>
   <data name="Web_Port" xml:space="preserve">
     <value>Web-portti (80 tai 8000)</value>
   </data>
   <data name="Web_UI" xml:space="preserve">
     <value>Web UI voit lisätä tai näkymän asetukset halutuille avatar.</value>
   </data>
+  <data name="WhatEstate" xml:space="preserve">
+    <value>Mikä Estate?</value>
+  </data>
+  <data name="WhatEstateName" xml:space="preserve">
+    <value>Minkä kartanon nimen haluat? Tyhjä = sinun on syötettävä se yli 150 kertaa!</value>
+  </data>
   <data name="What_2_say_To_all" xml:space="preserve">
     <value>Mitä haluat sanoa kaikille verkossa?</value>
   </data>
   <data name="What_to_say_2_region" xml:space="preserve">
     <value>Mitä haluat sanoa tälle alueelle?</value>
+  </data>
+  <data name="WheretoStart" xml:space="preserve">
+    <value>Mistä aloittaa? (Alueet kasvavat oikealle ja ylöspäin)</value>
   </data>
   <data name="Which_Channel" xml:space="preserve">
     <value>Mikä kanava eivät linnut kuuntelevat in-maailmassa komentoja. Negatiivisia numeroita ei voi käyttää ihmisten</value>
@@ -2855,167 +3020,5 @@
   </data>
   <data name="_0" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="Theme_Custom" xml:space="preserve">
-    <value>Teema asetettu mukautetuksi</value>
-  </data>
-  <data name="Arabic_Saudi" xml:space="preserve">
-    <value>arabia (saudi)</value>
-  </data>
-  <data name="Farsi" xml:space="preserve">
-    <value>Farsi (Iran)</value>
-  </data>
-  <data name="Brazilian" xml:space="preserve">
-    <value>brasilialainen (Portguese)</value>
-  </data>
-  <data name="Khazak" xml:space="preserve">
-    <value>Khazakistan</value>
-  </data>
-  <data name="Spanish_Mexico" xml:space="preserve">
-    <value>Espanja (Meksiko)</value>
-  </data>
-  <data name="Spanish_Spain" xml:space="preserve">
-    <value>Espanja (Espanja)</value>
-  </data>
-  <data name="Seconds_word" xml:space="preserve">
-    <value>sekuntia</value>
-  </data>
-  <data name="Pending_word" xml:space="preserve">
-    <value>Odottaa</value>
-  </data>
-  <data name="Suspended_word" xml:space="preserve">
-    <value>Keskeytetty</value>
-  </data>
-  <data name="NoLogin_word" xml:space="preserve">
-    <value>Ei kirjautumista</value>
-  </data>
-  <data name="Waiting" xml:space="preserve">
-    <value>Odottaa</value>
-  </data>
-  <data name="Restarting_Now_word" xml:space="preserve">
-    <value>Käynnistä uudelleen nyt</value>
-  </data>
-  <data name="Quitting_word" xml:space="preserve">
-    <value>Lopettaa</value>
-  </data>
-  <data name="Booting_word" xml:space="preserve">
-    <value>Käynnistys</value>
-  </data>
-  <data name="SSDelay" xml:space="preserve">
-    <value>Sammuta sekunneissa</value>
-  </data>
-  <data name="Recycling_Up_word" xml:space="preserve">
-    <value>Kierrätys ylös</value>
-  </data>
-  <data name="ViewAllMaps" xml:space="preserve">
-    <value>Näytä kaikki kartat</value>
-  </data>
-  <data name="Wait_For_scripts" xml:space="preserve">
-    <value>Odota komentosarjoja</value>
-  </data>
-  <data name="SecondsTips" xml:space="preserve">
-    <value>Kuinka kauan juokseva alue pysyy ylhäällä avatrarin lähdön jälkeen</value>
-  </data>
-  <data name="Home_Stopped" xml:space="preserve">
-    <value>Koti pysäytetty</value>
-  </data>
-  <data name="Recycling_Down_word" xml:space="preserve">
-    <value>Kierrätys alas</value>
-  </data>
-  <data name="BadCoordinates" xml:space="preserve">
-    <value>Huonot koordinaatit</value>
-  </data>
-  <data name="CautionOAR" xml:space="preserve">
-    <value>Varoitus! Tämä lataa yli 150 airoa ja aluetta järjestelmääsi. Tämä kestää kauan.</value>
-  </data>
-  <data name="Caution_word" xml:space="preserve">
-    <value>Varoitus!</value>
-  </data>
-  <data name="Diskspacelow" xml:space="preserve">
-    <value>Levytilaa on kriittisesti vähän, alle 50 M jäljellä! Kaikki alueet ovat jäätyneet. Vapauta levytilaa ja alueet sulavat.</value>
-  </data>
-  <data name="EnterEstateName" xml:space="preserve">
-    <value>Aseta Estate nimi DOS-ruutuun.</value>
-  </data>
-  <data name="Loaded_word" xml:space="preserve">
-    <value>ladattu.</value>
-  </data>
-  <data name="LoadFreeOars" xml:space="preserve">
-    <value>Lataa kaikki ilmaiset airot</value>
-  </data>
-  <data name="SmartStartEnable" xml:space="preserve">
-    <value>Smart Start (Alpha code) -asetus</value>
-  </data>
-  <data name="SSisDisabled" xml:space="preserve">
-    <value>Smart Start (Alpha-koodi) kohdassa Asetukset-&gt; Smart Start on pois käytöstä.</value>
-  </data>
-  <data name="SSisEnabled" xml:space="preserve">
-    <value>Smart Start (Alpha) -koodi kohdassa Asetukset-&gt; Smart Start on käytössä.</value>
-  </data>
-  <data name="StartingLocation" xml:space="preserve">
-    <value>Aloituspaikka?</value>
-  </data>
-  <data name="WhatEstate" xml:space="preserve">
-    <value>Mikä Estate?</value>
-  </data>
-  <data name="WhatEstateName" xml:space="preserve">
-    <value>Minkä kartanon nimen haluat? Tyhjä = sinun on syötettävä se yli 150 kertaa!</value>
-  </data>
-  <data name="WheretoStart" xml:space="preserve">
-    <value>Mistä aloittaa? (Alueet kasvavat oikealle ja ylöspäin)</value>
-  </data>
-  <data name="Available" xml:space="preserve">
-    <value>Saatavilla</value>
-  </data>
-  <data name="Clear_objects_tooltip" xml:space="preserve">
-    <value>Tyhjentää kaikki objektit kaikilla neliöillä ja lataa OAR: n</value>
-  </data>
-  <data name="Clear_Terrain_tooltip" xml:space="preserve">
-    <value>Älä korvaa nykyisen alueen maastoa.</value>
-  </data>
-  <data name="IgnoreParcels_tooltip" xml:space="preserve">
-    <value>Ohita uudet pakettitiedot.</value>
-  </data>
-  <data name="Load_Terrain_tooltip" xml:space="preserve">
-    <value>Pakota maasto kuormitettavaksi. Normaalisti --merge ei korvaa nykyisen alueen maastoa.</value>
-  </data>
-  <data name="MergeParcels_tooltip" xml:space="preserve">
-    <value>Korvaa nykyisen alueen pakettitiedot.</value>
-  </data>
-  <data name="Merge_objectstooltip" xml:space="preserve">
-    <value>Yhdistää OAR tyhjentämättä mitään esineitä</value>
-  </data>
-  <data name="Objects_word" xml:space="preserve">
-    <value>Esineet</value>
-  </data>
-  <data name="Set_Owner_tooltip" xml:space="preserve">
-    <value>Voit antaa nämä henkilölle. Oletuksena on kiinteistön omistaja.</value>
-  </data>
-  <data name="Erase_all" xml:space="preserve">
-    <value>Tämä poistaa KOKO simin ja lataa uuden simin. Oletko varma?</value>
-  </data>
-  <data name="checking_word" xml:space="preserve">
-    <value>tarkistus</value>
-  </data>
-  <data name="No_Overlaps" xml:space="preserve">
-    <value>Ei päällekkäisiä alueita</value>
-  </data>
-  <data name="potential_overlap" xml:space="preserve">
-    <value>mahdolliset päällekkäiset alueet</value>
-  </data>
-  <data name="AutoFill" xml:space="preserve">
-    <value>Loputon maa ja meri</value>
-  </data>
-  <data name="False_word" xml:space="preserve">
-    <value>Väärä</value>
-  </data>
-  <data name="Trees" xml:space="preserve">
-    <value>Tee puista XML-tiedostoja</value>
-  </data>
-  <data name="True_word" xml:space="preserve">
-    <value>Totta</value>
-  </data>
-  <data name="ExportAllMaps" xml:space="preserve">
-    <value>Vie kaikki kartat</value>
   </data>
 </root>
