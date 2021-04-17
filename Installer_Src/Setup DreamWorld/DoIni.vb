@@ -99,16 +99,19 @@ Module DoIni
 
     Public Function DoEstates() As Boolean
 
-        If Settings.ServerType = RobustServerName Then
-            Dim INI = Settings.LoadIni(IO.Path.Combine(Settings.OpensimBinPath, "Estates\Estates.ini"), ";")
-            Dim AvatarUUID As String = GetAviUUUD(Settings.SurroundOwner)
-            Settings.SetIni("SimSurround", "Owner", AvatarUUID)
-            Settings.SaveINI(INI, System.Text.Encoding.ASCII)
-        Else
-            Dim INI = Settings.LoadIni(IO.Path.Combine(Settings.OpensimBinPath, "Estates\Estates.ini"), ";")
-            Settings.SetIni("SimSurround", "Owner", "")
-            Settings.SaveINI(INI, System.Text.Encoding.ASCII)
-        End If
+        Try
+            If Settings.ServerType = RobustServerName Then
+                Dim INI = Settings.LoadIni(IO.Path.Combine(Settings.OpensimBinPath, "Estates\Estates.ini"), ";")
+                Dim AvatarUUID As String = GetAviUUUD(Settings.SurroundOwner)
+                Settings.SetIni("SimSurround", "Owner", AvatarUUID)
+                Settings.SaveINI(INI, System.Text.Encoding.ASCII)
+            Else
+                Dim INI = Settings.LoadIni(IO.Path.Combine(Settings.OpensimBinPath, "Estates\Estates.ini"), ";")
+                Settings.SetIni("SimSurround", "Owner", "")
+                Settings.SaveINI(INI, System.Text.Encoding.ASCII)
+            End If
+        Catch
+        End Try
         Return False
 
     End Function
