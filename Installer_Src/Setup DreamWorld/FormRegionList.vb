@@ -438,7 +438,8 @@ Public Class FormRegionlist
         UserView.Columns(ctr).Name = "User" & ctr & "_" & CStr(ViewType.Users)
         ctr += 1
         UserView.Columns.Add(My.Resources.Email_word, colsize.ColumnWidth("User" & ctr & "_" & CStr(ViewType.Users), 250), HorizontalAlignment.Left)
-        UserView.Columns(ctr).Name = "User" & ctr & "_" & CStr(ViewType.Users)
+        ctr += 1
+        UserView.Columns.Add(My.Resources.Items_word, colsize.ColumnWidth("Items" & ctr & "_" & CStr(ViewType.Users), 90), HorizontalAlignment.Left)
 
         ' Connect the ListView.ColumnClick event to the ColumnClick event handler.
         AddHandler ListView1.ColumnClick, AddressOf ColumnClick
@@ -1002,12 +1003,15 @@ Public Class FormRegionlist
             End If
 
             For Each Agent In M
-                If Agent.Value.Length > 0 Then
-                    Dim item1 As New ListViewItem(Agent.Key, Index)
-                    item1.SubItems.Add(Agent.Value)
-                    UserView.Items.AddRange(New ListViewItem() {item1})
-                    Index += 1
+                Dim item1 As New ListViewItem(Agent.Key, Index)
+                If Agent.Value.Length = 0 Then
+                    item1.BackColor = Color.LightGray
+                    item1.ForeColor = Color.White
                 End If
+                item1.SubItems.Add(Agent.Value)
+                UserView.Items.AddRange(New ListViewItem() {item1})
+                item1.SubItems.Add(CStr(MysqlInterface.AssetCount(Agent.Key)))
+                Index += 1
             Next
 
             Me.Text = M.Count & " " & My.Resources.Users_word

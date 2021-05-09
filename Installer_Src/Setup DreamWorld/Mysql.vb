@@ -171,6 +171,28 @@ Public Module MysqlInterface
 
 #Region "Public"
 
+    Public Function AssetCount(UUID As String) As Integer
+
+        Try
+            Using MysqlConn As New MySqlConnection(Settings.RobustMysqlConnection)
+                MysqlConn.Open()
+                Dim stm = "select count(*) from inventoryitems where avatarid = @UUID"
+                Using cmd As MySqlCommand = New MySqlCommand(stm, MysqlConn)
+                    cmd.Parameters.AddWithValue("@UUID", UUID)
+                    Using reader As MySqlDataReader = cmd.ExecuteReader()
+                        If reader.Read() Then
+                            'Debug.Print("ID = {0}", reader.GetString(0))
+                            Return reader.GetInt32(0)
+                        End If
+                    End Using
+                End Using
+            End Using
+        Catch
+        End Try
+        Return 0
+
+    End Function
+
     Public Sub DeRegisterPosition(X As Integer, Y As Integer)
         Try
             Using MysqlConn As New MySqlConnection(Settings.RobustMysqlConnection)
