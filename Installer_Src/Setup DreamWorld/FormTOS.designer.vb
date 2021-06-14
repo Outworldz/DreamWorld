@@ -24,11 +24,12 @@ Partial Class TosForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TosForm))
         Me.PreviewButton = New System.Windows.Forms.Button()
-        Me.Editor1 = New LiveSwitch.TextControl.Editor()
         Me.SaveButton = New System.Windows.Forms.Button()
         Me.ApplyButton = New System.Windows.Forms.Button()
         Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem30 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.RichTextBox = New System.Windows.Forms.RichTextBox()
         Me.MenuStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,22 +41,6 @@ Partial Class TosForm
         Me.PreviewButton.TabIndex = 0
         Me.PreviewButton.Text = Global.Outworldz.My.Resources.Resources.Preview_in_Browser
         Me.PreviewButton.UseVisualStyleBackColor = True
-        '
-        'Editor1
-        '
-        Me.Editor1.BodyBackgroundColor = System.Drawing.Color.White
-        Me.Editor1.BodyHtml = Nothing
-        Me.Editor1.BodyText = Nothing
-        Me.Editor1.DocumentText = resources.GetString("Editor1.DocumentText")
-        Me.Editor1.EditorBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Editor1.EditorForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Editor1.FontSize = LiveSwitch.TextControl.FontSize.Three
-        Me.Editor1.Html = Nothing
-        Me.Editor1.Location = New System.Drawing.Point(13, 45)
-        Me.Editor1.Margin = New System.Windows.Forms.Padding(5)
-        Me.Editor1.Name = "Editor1"
-        Me.Editor1.Size = New System.Drawing.Size(636, 421)
-        Me.Editor1.TabIndex = 2
         '
         'SaveButton
         '
@@ -93,16 +78,36 @@ Partial Class TosForm
         Me.ToolStripMenuItem30.Size = New System.Drawing.Size(72, 32)
         Me.ToolStripMenuItem30.Text = Global.Outworldz.My.Resources.Resources.Help_word
         '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Location = New System.Drawing.Point(340, 165)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.TabIndex = 6
+        '
+        'RichTextBox
+        '
+        Me.RichTextBox.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RichTextBox.Location = New System.Drawing.Point(0, 37)
+        Me.RichTextBox.Name = "RichTextBox"
+        Me.RichTextBox.Size = New System.Drawing.Size(660, 446)
+        Me.RichTextBox.TabIndex = 5
+        Me.RichTextBox.Text = ""
+        '
         'TosForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(660, 541)
+        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.RichTextBox)
         Me.Controls.Add(Me.MenuStrip2)
         Me.Controls.Add(Me.ApplyButton)
         Me.Controls.Add(Me.SaveButton)
-        Me.Controls.Add(Me.Editor1)
         Me.Controls.Add(Me.PreviewButton)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -115,9 +120,10 @@ Partial Class TosForm
 
     End Sub
     Friend WithEvents PreviewButton As Button
-    Friend WithEvents Editor1 As LiveSwitch.TextControl.Editor
     Friend WithEvents SaveButton As Button
     Friend WithEvents ApplyButton As Button
     Friend WithEvents MenuStrip2 As MenuStrip
     Friend WithEvents ToolStripMenuItem30 As ToolStripMenuItem
+    Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents RichTextBox As RichTextBox
 End Class

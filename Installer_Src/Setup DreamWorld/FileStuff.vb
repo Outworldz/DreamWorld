@@ -14,6 +14,9 @@ Module FileStuff
 
         ' cleanup old code and files
         Dim ToDrop = New List(Of String) From {
+            "LiveSwitch.TextControl.exe.config",
+            "LiveSwitch.TextControl.pdb",
+            "LiveSwitch.TextControl.exe",
             "fw.bat",
             "Downloader.exe",
             "DreamGridSetup.exe",

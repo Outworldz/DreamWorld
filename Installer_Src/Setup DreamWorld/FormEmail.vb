@@ -60,8 +60,8 @@ Public Class FormEmail
         Message.Subject = SubjectTextBox.Text
 
         Dim builder = New BodyBuilder With {
-            .TextBody = EditorBox.BodyText,
-            .HtmlBody = EditorBox.BodyHtml
+            .TextBody = RichTextBox.Text,
+            .HtmlBody = RichTextBox.Text
         }
         Message.Body = builder.ToMessageBody()
         Using client As New SmtpClient()
@@ -95,7 +95,7 @@ Public Class FormEmail
 
     Private Sub Email_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        EditorBox.DocumentText = "<html><body></body></html>"
+        RichTextBox.Text = ""
         SubjectLabel.Text = My.Resources.Subject_word
         SendButton.Text = My.Resources.Send_word
 
