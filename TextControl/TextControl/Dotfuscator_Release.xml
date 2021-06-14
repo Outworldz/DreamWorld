@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.2.dtd">
+<dotfuscator version="2.2">
+  <!--This is application generated code. Do not edit manually.-->
+  <global />
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <file dir="C:\Users\kevin.KEVINHOME\Documents\LiveSwitch\TextControl\TextControl\bin\Release" name="LiveSwitch.TextControl.exe" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Dotfuscated_Release" />
+  </output>
+  <renaming>
+    <option>xmlserialization</option>
+    <excludelist>
+      <type name="LiveSwitch.TextControl.Editor" />
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanCopy" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanCut" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanDelete" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanInsertLink" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanPaste" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanRedo" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="CanUndo" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Clear" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Copy" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Cut" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Delete" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="EmbedBr" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Indent" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="InsertBreak" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="InsertImage" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="InsertLink" signature="void(string)" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="InsertParagraph" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsBold" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsItalic" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsJustifyCenter" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsJustifyFull" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsJustifyLeft" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsJustifyRight" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsOrderedList" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsUnderline" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="IsUnorderedList" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Italic" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="italicButton_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="JustifyCenter" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="justifyCenterButton_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="JustifyFull" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="JustifyLeft" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="JustifyRight" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="OrderedList" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Outdent" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Paste" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Print" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Redo" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Search" signature="bool(string, bool, bool, bool)" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="SelectAll" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="SelectBackColor" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="SelectBodyColor" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="SelectForeColor" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="SelectLink" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Underline" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="Undo" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="UnorderedList" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="UpdateFontComboBox" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="UpdateFontSizeComboBox" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <method name="UpdateImageSizes" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="BackColor" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="BodyBackgroundColor" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="BodyHtml" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="BodyText" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="Document" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="DocumentText" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="DocumentTitle" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="EditorBackColor" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="EditorForeColor" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="FontName" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="FontSize" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="Html" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="ReadyState" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <propertymember name="SelectionType" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="EnterKeyEvent" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="HtmlFontChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="BoldChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="HtmlFontSizeChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="IsLinkChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="ItalicChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="JustifyCenterChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="JustifyFullChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="JustifyLeftChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="Navigated" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="JustifyRightChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="OrderedListChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="Tick" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="UnderlineChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor" excludetype="false">
+        <eventmember name="UnorderedListChanged" />
+      </type>
+      <type name="LiveSwitch.TextControl.Editor/EnterKeyEventArgs" />
+      <type name="LiveSwitch.TextControl.Editor/TickDelegate" />
+      <type name="LiveSwitch.TextControl.EditorForm" />
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="undoToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="_filename" signature="string" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="breakToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="components" signature="System.ComponentModel.IContainer" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="LoadFile" signature="void(string)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="exitToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="findToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="editor_Tick" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="htmlToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="imageToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="InitializeComponent" signature="void()" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="openToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="newToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="paragraphToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="pasteToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="printToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="redoToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="saveAsToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="SaveFile" signature="void(string)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="SaveFileDialog" signature="bool()" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="saveToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="selectAllToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="textToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="textToolStripMenuItem1_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <method name="undoToolStripMenuItem_Click" signature="void(object, System.EventArgs)" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="_filename" signature="string" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="breakToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="copyToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="cutToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="components" signature="System.ComponentModel.IContainer" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="ediToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="editor" signature="LiveSwitch.TextControl.Editor" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="exitToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="fileToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="htmlToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="findToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="insertToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="imageToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="menuStrip" signature="System.Windows.Forms.MenuStrip" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="newToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="openToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="paragraphToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="pasteToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="printToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="redoToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="saveAsToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="saveToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="selectAllToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="textToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="textToolStripMenuItem1" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="toolStripMenuItem1" signature="System.Windows.Forms.ToolStripSeparator" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="toolStripMenuItem2" signature="System.Windows.Forms.ToolStripSeparator" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="toolStripMenuItem3" signature="System.Windows.Forms.ToolStripSeparator" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="toolStripMenuItem4" signature="System.Windows.Forms.ToolStripSeparator" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="toolStripSeparator1" signature="System.Windows.Forms.ToolStripSeparator" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="undoToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.EditorForm" excludetype="false">
+        <field name="viewToolStripMenuItem" signature="System.Windows.Forms.ToolStripMenuItem" />
+      </type>
+      <type name="LiveSwitch.TextControl.FontSize" />
+      <type name="LiveSwitch.TextControl.ReadyState" />
+      <type name="LiveSwitch.TextControl.SearchableBrowser" />
+      <type name="LiveSwitch.TextControl.SelectionType" />
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+    <referencerulelist>
+      <referencerule rulekey="{7D9C8B02-2383-420f-8740-A9760394C2C1}" />
+      <referencerule rulekey="{6655B10A-FD58-462d-8D4F-5B1316DFF0FF}" />
+      <referencerule rulekey="{2B7E7C8C-A39A-4db8-9DFC-6AFD38509061}" />
+      <referencerule rulekey="{89769974-93E9-4e71-8D92-BE70E855ACFC}" />
+      <referencerule rulekey="{229FD6F8-5BCC-427b-8F72-A7A413ECDF1A}" />
+    </referencerulelist>
+  </renaming>
+  <sos mergeruntime="true">
+    <option>disable</option>
+    <option>dontsendtamper</option>
+  </sos>
+  <smartobfuscation>
+    <option>disable</option>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>
