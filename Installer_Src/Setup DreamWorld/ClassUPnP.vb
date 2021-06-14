@@ -120,6 +120,7 @@ Public Class UPnp
     Public Function Add(ByVal localIP As String, ByVal port As Integer, ByVal prot As MyProtocol, ByVal desc As String) As Boolean
 
         If Not IsPrivateIP(localIP) Then Return False
+        If staticMapping Is Nothing Then Return False
         If Not staticEnabled Then Return False
 
         Dim protocol As String
@@ -149,7 +150,12 @@ Public Class UPnp
     <CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1063:ImplementIDisposableCorrectly")>
     Public Sub Dispose() Implements IDisposable.Dispose
         Try
-            Marshal.ReleaseComObject(staticMapping)
+            If staticMapping IsNot Nothing Then
+                Marshal.ReleaseComObject(staticMapping)
+            End If
+        Catch
+        End Try
+        Try
             Marshal.ReleaseComObject(UPnpnat)
             Dispose(True)
             GC.SuppressFinalize(Me)
@@ -166,6 +172,8 @@ Public Class UPnp
     ''' <param name="prot">The protocol of the port [TCP/UDP]</param>
     ''' <remarks></remarks>
     Public Function Exists(ByVal port As Integer, ByVal prot As MyProtocol) As Boolean
+
+        If staticMapping Is Nothing Then Return False
         Try
             'Dim x = staticMapping.Count
 
@@ -224,12 +232,11 @@ Public Class UPnp
 
     ''' <remarks></remarks>
     Public Sub Remove(ByVal port As Integer, ByVal prot As MyProtocol)
-
+        If staticMapping Is Nothing Then Return
         Try
             staticMapping.Remove(port, prot.ToString)
         Catch ex As Exception
             BreakPoint.Show(ex.Message)
-
         End Try
     End Sub
 
@@ -249,7 +256,9 @@ Public Class UPnp
     ''' <remarks></remarks>
     Protected Overridable Sub Dispose(disposing As Boolean)
         Try
-            If staticMapping IsNot Nothing Then Marshal.ReleaseComObject(staticMapping)
+            If staticMapping IsNot Nothing Then
+                Marshal.ReleaseComObject(staticMapping)
+            End If
             Marshal.ReleaseComObject(UPnpnat)
         Catch ex As Exception
             BreakPoint.Show(ex.Message)
