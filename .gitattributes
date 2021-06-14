@@ -1,0 +1,15 @@
+OutworldzFiles/mysql/data/opensim/* filter=lfs diff=lfs merge=lfs -text
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.gif binary
+*.exe binary
+*.dll binary
+*.exe binary
+*.txt text
+core.autocrlf true
+*.MYI binary
+*.MYD binary
+*.zip filter=lfs diff=lfs merge=lfs -text
+MSFT_Runtimes filter=lfs diff=lfs merge=lfs -text
+DreamGridUpdater.exe filter=lfs diff=lfs merge=lfs -text
+Start.exe filter=lfs diff=lfs merge=lfs -text
