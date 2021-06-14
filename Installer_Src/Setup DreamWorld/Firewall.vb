@@ -155,7 +155,7 @@ Public Module Firewall
                 Log(My.Resources.Error_word, "Could not set firewall:" & ex.Message)
             End Try
         End Using
-        Application.ExitThread()
+
     End Sub
 
 End Module

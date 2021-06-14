@@ -1720,6 +1720,7 @@ Public Class FormSetup
 
         If Settings.RegionListVisible Then
             ShowRegionform()
+            Application.DoEvents()
         End If
 
         TextPrint(My.Resources.RefreshingOAR)
