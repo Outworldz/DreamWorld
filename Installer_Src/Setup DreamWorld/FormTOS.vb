@@ -46,11 +46,11 @@ Public Class TosForm
 
         Try
             Using outputFile As New StreamWriter(IO.Path.Combine(Settings.CurrentDirectory & "\tos.html"))
-                outputFile.WriteLine(Editor1.BodyHtml)
+                outputFile.WriteLine(RichTextBox.Text)
             End Using
 
             Using outputFile As New StreamWriter(IO.Path.Combine(Settings.CurrentDirectory, "OutworldzFiles\opensim\bin\WifiPages\tos.html"))
-                outputFile.WriteLine(Editor1.BodyHtml)
+                outputFile.WriteLine(RichTextBox.Text)
             End Using
         Catch ex As Exception
             BreakPoint.Show(ex.Message)
@@ -87,7 +87,7 @@ Public Class TosForm
             HTML = HTML + reader.ReadLine() + vbCrLf
         End While
         reader.Close()
-        Editor1.BodyHtml = HTML
+        RichTextBox.Text = HTML
 
         SetScreen()
 
@@ -99,11 +99,11 @@ Public Class TosForm
 
         Try
             Using outputFile As New StreamWriter(IO.Path.Combine(Settings.CurrentDirectory, "tos.html"))
-                outputFile.WriteLine(Editor1.BodyHtml)
+                outputFile.WriteLine(RichTextBox.Text)
             End Using
 
             Using outputFile As New StreamWriter(IO.Path.Combine(Settings.CurrentDirectory, "OutworldzFiles\opensim\bin\WifiPages\tos.html"))
-                outputFile.WriteLine(Editor1.BodyHtml)
+                outputFile.WriteLine(RichTextBox.Text)
             End Using
         Catch ex As Exception
             BreakPoint.Show(ex.Message)
@@ -111,6 +111,10 @@ Public Class TosForm
 
         Me.Close()
 
+    End Sub
+
+    Private Sub ToolStripMenuItem30_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem30.Click
+        HelpManual("Tos")
     End Sub
 
 #End Region

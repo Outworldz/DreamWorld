@@ -27,7 +27,7 @@ Partial Class FormEmail
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.SubjectLabel = New System.Windows.Forms.Label()
         Me.SendButton = New System.Windows.Forms.Button()
-        Me.EditorBox = New LiveSwitch.TextControl.Editor()
+        Me.RichTextBox = New System.Windows.Forms.RichTextBox()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -61,7 +61,7 @@ Partial Class FormEmail
         '
         'SplitContainer1.Panel2
         '
-        Me.SplitContainer1.Panel2.Controls.Add(Me.EditorBox)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.RichTextBox)
         Me.SplitContainer1.Size = New System.Drawing.Size(600, 365)
         Me.SplitContainer1.SplitterDistance = 31
         Me.SplitContainer1.SplitterWidth = 3
@@ -89,24 +89,14 @@ Partial Class FormEmail
         Me.SendButton.Text = "Send"
         Me.SendButton.UseVisualStyleBackColor = True
         '
-        'EditorBox
+        'RichTextBox
         '
-        Me.EditorBox.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.EditorBox.BodyBackgroundColor = System.Drawing.Color.White
-        Me.EditorBox.BodyHtml = Nothing
-        Me.EditorBox.BodyText = Nothing
-        Me.EditorBox.DocumentText = resources.GetString("EditorBox.DocumentText")
-        Me.EditorBox.EditorBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.EditorBox.EditorForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.EditorBox.FontSize = LiveSwitch.TextControl.FontSize.Three
-        Me.EditorBox.Html = Nothing
-        Me.EditorBox.Location = New System.Drawing.Point(5, 17)
-        Me.EditorBox.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
-        Me.EditorBox.Name = "EditorBox"
-        Me.EditorBox.Size = New System.Drawing.Size(583, 298)
-        Me.EditorBox.TabIndex = 8
+        Me.RichTextBox.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox.Location = New System.Drawing.Point(0, 0)
+        Me.RichTextBox.Name = "RichTextBox"
+        Me.RichTextBox.Size = New System.Drawing.Size(600, 331)
+        Me.RichTextBox.TabIndex = 0
+        Me.RichTextBox.Text = ""
         '
         'FormEmail
         '
@@ -129,7 +119,7 @@ Partial Class FormEmail
 
     Friend WithEvents SubjectTextBox As TextBox
     Friend WithEvents SplitContainer1 As SplitContainer
-    Friend WithEvents EditorBox As LiveSwitch.TextControl.Editor
     Friend WithEvents SubjectLabel As Label
     Friend WithEvents SendButton As Button
+    Friend WithEvents RichTextBox As RichTextBox
 End Class

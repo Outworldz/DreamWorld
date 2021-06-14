@@ -5,6 +5,7 @@ This is a high-level view of major changes. Two digits such as 3.8 or 3.9 are re
 V4.41 
 Crash report # 234345360: a crash could happen when restarting if two processes are using the PID file.
 Expires files by age did not apply to all files in AutoBackup. 
+Deletes the ancient HTML editor plug as it was causing crashes.  Just plain text now :-(
 
 V4.4  Not a release as some machines still crash
 Fixed a crash in Diva Panel when missing the Photo.
