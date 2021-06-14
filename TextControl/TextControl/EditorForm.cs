@@ -19,7 +19,7 @@ namespace LiveSwitch.TextControl
             InitializeComponent();
             editor.Tick += new Editor.TickDelegate(editor_Tick);
 
-            LoadFile("Outworldzfiles/Tos.html");
+            LoadFile("Tos.html");
         }
 
         private void editor_Tick()
