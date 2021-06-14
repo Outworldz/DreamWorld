@@ -157,8 +157,8 @@
     <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
       <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
     </Reference>
-    <Reference Include="MailKit, Version=2.12.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
-      <HintPath>..\packages\MailKit.2.12.0\lib\net48\MailKit.dll</HintPath>
+    <Reference Include="MailKit, Version=2.13.0.0, Culture=neutral, PublicKeyToken=4e064fe7c44a8f1b, processorArchitecture=MSIL">
+      <HintPath>..\packages\MailKit.2.13.0\lib\net48\MailKit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -166,8 +166,8 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MimeKit, Version=2.12.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
-      <HintPath>..\packages\MimeKit.2.12.0\lib\net48\MimeKit.dll</HintPath>
+    <Reference Include="MimeKit, Version=2.13.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.2.13.0\lib\net48\MimeKit.dll</HintPath>
     </Reference>
     <Reference Include="MSChartWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MSChartWrapper.1.0.0.1\lib\MSChartWrapper.dll</HintPath>
@@ -933,7 +933,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="scripts\tinymce\langs\README.md" />
-    <None Include="scripts\tinymce\skins\ui\oxide-dark\fonts\tinymce-mobile.woff" />
     <None Include="scripts\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
   </ItemGroup>
   <ItemGroup>
@@ -1337,12 +1336,6 @@
     <Content Include="scripts\tinymce\plugins\colorpicker\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\contextmenu\plugin.js" />
     <Content Include="scripts\tinymce\plugins\contextmenu\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\directionality\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\directionality\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\emoticons\js\emojiimages.js" />
-    <Content Include="scripts\tinymce\plugins\emoticons\js\emojiimages.min.js" />
-    <Content Include="scripts\tinymce\plugins\emoticons\js\emojis.js" />
-    <Content Include="scripts\tinymce\plugins\emoticons\js\emojis.min.js" />
     <Content Include="scripts\tinymce\plugins\emoticons\plugin.js" />
     <Content Include="scripts\tinymce\plugins\emoticons\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\fullpage\plugin.js" />
@@ -1359,10 +1352,6 @@
     <Content Include="scripts\tinymce\plugins\image\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\importcss\plugin.js" />
     <Content Include="scripts\tinymce\plugins\importcss\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\insertdatetime\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\insertdatetime\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\legacyoutput\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\legacyoutput\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\link\plugin.js" />
     <Content Include="scripts\tinymce\plugins\link\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\lists\plugin.js" />
@@ -1385,10 +1374,6 @@
     <Content Include="scripts\tinymce\plugins\quickbars\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\save\plugin.js" />
     <Content Include="scripts\tinymce\plugins\save\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\searchreplace\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\searchreplace\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\spellchecker\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\spellchecker\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\tabfocus\plugin.js" />
     <Content Include="scripts\tinymce\plugins\tabfocus\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\table\plugin.js" />
@@ -1401,20 +1386,12 @@
     <Content Include="scripts\tinymce\plugins\textpattern\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\toc\plugin.js" />
     <Content Include="scripts\tinymce\plugins\toc\plugin.min.js" />
-    <Content Include="scripts\tinymce\plugins\visualblocks\plugin.js" />
-    <Content Include="scripts\tinymce\plugins\visualblocks\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\visualchars\plugin.js" />
     <Content Include="scripts\tinymce\plugins\visualchars\plugin.min.js" />
     <Content Include="scripts\tinymce\plugins\wordcount\plugin.js" />
     <Content Include="scripts\tinymce\plugins\wordcount\plugin.min.js" />
     <Content Include="scripts\tinymce\skins\content\dark\content.css" />
     <Content Include="scripts\tinymce\skins\content\dark\content.min.css" />
-    <Content Include="scripts\tinymce\skins\content\default\content.css" />
-    <Content Include="scripts\tinymce\skins\content\default\content.min.css" />
-    <Content Include="scripts\tinymce\skins\content\document\content.css" />
-    <Content Include="scripts\tinymce\skins\content\document\content.min.css" />
-    <Content Include="scripts\tinymce\skins\content\writer\content.css" />
-    <Content Include="scripts\tinymce\skins\content\writer\content.min.css" />
     <Content Include="scripts\tinymce\skins\ui\oxide-dark\content.css" />
     <Content Include="scripts\tinymce\skins\ui\oxide-dark\content.inline.css" />
     <Content Include="scripts\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
@@ -1457,6 +1434,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\tinymce\tinymce.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\tinymce\skins\content\writer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
